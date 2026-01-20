@@ -71,11 +71,10 @@ function getPhotoURLs(globalId) {
     
     // Convert photo paths to objects with url and label
     return photos.map((photoPath, index) => {
-        // Convert Windows backslashes to forward slashes
-        let cleanPath = photoPath.replace(/\\/g, '/');
-        
-        // Remove leading /, public/, or /public/ from the path
-        cleanPath = cleanPath.replace(/^\/?(public\/)?/, '');
+        // Normalize path: handle backslashes and remove public/ prefix
+        const cleanPath = photoPath
+            .replace(/\\/g, '/')           // Windows paths
+            .replace(/^\/?(public\/)?/, ''); // Remove public/ prefix
         
         return {
             url: `${BASE_PATH}${cleanPath}`,
