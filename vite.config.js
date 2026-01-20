@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: '/Hbim-AachenerDom-Chorhalle-Viewer/', 
+  publicDir: 'public',
   server: {
     port: 3000,
     open: true
@@ -20,5 +21,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['web-ifc', 'web-ifc-three']
   },
-  assetsInclude: ['**/*.ifc', '**/*.json']
+  
+  assetsInclude: ['**/*.ifc', '**/*.json', '**/*.wasm']
 });

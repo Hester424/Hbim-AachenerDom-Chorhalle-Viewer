@@ -1,3 +1,5 @@
+const BASE_PATH = import.meta.env.BASE_URL || '/';
+
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { IFCLoader } from 'web-ifc-three/IFCLoader';
@@ -30,7 +32,7 @@ let semanticData = {};
 let selectedExpressID = null;
 
 const ifcLoader = new IFCLoader();
-ifcLoader.ifcManager.setWasmPath('/');
+ifcLoader.ifcManager.setWasmPath('./');
 
 const highlightMaterial = new THREE.MeshLambertMaterial({
     color: 0x00aaff,
@@ -68,10 +70,15 @@ function getPhotoURLs(globalId) {
     const photos = componentData.Photos || [];
     
     // Convert photo paths to objects with url and label
-    return photos.map((photoPath, index) => ({
-        url: photoPath,
-        label: `Photo ${index + 1}`
-    }));
+    return photos.map((photoPath, index) => {
+        // 修复路径：移除开头的 / 并添加 BASE_PATH
+        const cleanPath = photoPath.startsWith('/') ? photoPath.substring(1) : photoPath;
+        
+        return {
+            url: `${BASE_PATH}${cleanPath}`,  // ← 修改这里
+            label: `Photo ${index + 1}`
+        };
+    });
 }
 
 // Image modal handlers
@@ -188,7 +195,7 @@ async function loadIFCModel() {
         updateProgress(40, 'Loading IFC model...');
         
         ifcLoader.load(
-            'model.ifc',
+            './model.ifc',
             (model) => {
                 ifcModel = model;
                 scene.add(ifcModel);

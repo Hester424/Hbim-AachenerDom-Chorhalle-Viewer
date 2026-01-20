@@ -1,33 +1,33 @@
 @echo off
-REM GitHub Pages 部署脚本 (Windows)
+REM GitHub Pages Deploy Script (Windows)
 
-echo 🚀 开始部署到 GitHub Pages...
+echo Start deploying to GitHub Pages...
 
-REM 1. 构建项目
-echo 📦 构建项目...
+REM 1. Build project
+echo Building project...
 call npm run build
 
-REM 2. 进入构建目录
+REM 2. Enter build directory
 cd dist
 
-REM 3. 初始化 git (如果还没有)
+REM 3. Initialize git (if not exists)
 if not exist .git (
   git init
   git checkout -b gh-pages
 )
 
-REM 4. 添加所有文件
+REM 4. Add all files
 git add -A
 
-REM 5. 提交
+REM 5. Commit
 git commit -m "Deploy to GitHub Pages - %date% %time%"
 
-REM 6. 推送到 GitHub Pages 分支
-REM ⚠️ 替换成你的仓库地址
+REM 6. Push to GitHub Pages branch
+REM Replace with your repository URL
 git push -f https://github.com/Hester424/Hbim-AachenerDom-Chorhalle-Viewer.git gh-pages
 
-echo ✅ 部署完成！
-echo 🌐 访问: https://Hester424.github.io/Hbim-AachenerDom-Chorhalle-Viewer/
+echo Deployment complete!
+echo Visit: https://Hester424.github.io/Hbim-AachenerDom-Chorhalle-Viewer/
 
 cd ..
 pause
