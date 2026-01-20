@@ -71,11 +71,11 @@ function getPhotoURLs(globalId) {
     
     // Convert photo paths to objects with url and label
     return photos.map((photoPath, index) => {
-        // 修复路径：移除开头的 / 并添加 BASE_PATH
-        const cleanPath = photoPath.startsWith('/') ? photoPath.substring(1) : photoPath;
+        // Remove leading /, public/, or /public/ from the path
+        const cleanPath = photoPath.replace(/^\/?(public\/)?/, '');
         
         return {
-            url: `${BASE_PATH}${cleanPath}`,  // ← 修改这里
+            url: `${BASE_PATH}${cleanPath}`,
             label: `Photo ${index + 1}`
         };
     });
