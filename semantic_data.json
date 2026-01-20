@@ -11,9 +11,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 342.0,
-      "Width": 185.0
+      "Height": 185,
+      "Length": 342,
+      "Width": 185
     },
     "Connections": [
       {
@@ -45,9 +45,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 143.0,
-      "Width": 80.0
+      "Height": 110,
+      "Length": 143,
+      "Width": 80
     },
     "Connections": [
       {
@@ -84,9 +84,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 340.0,
-      "Width": 170.0
+      "Height": 180,
+      "Length": 340,
+      "Width": 170
     },
     "Connections": [
       {
@@ -139,9 +139,9 @@
     "GlobalId": "1AgyFqUgH60RnY1FwMxtRi",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 238.0,
-      "Width": 110.0
+      "Height": 135,
+      "Length": 238,
+      "Width": 110
     },
     "Photos": []
   },
@@ -151,9 +151,9 @@
     "CorrectedID": "153",
     "ComponentType": "Riegel",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 112.0,
-      "Width": 90.0
+      "Height": 100,
+      "Length": 112,
+      "Width": 90
     },
     "Connections": [
       {
@@ -191,9 +191,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 320.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 320,
+      "Width": 130
     },
     "Connections": [
       {
@@ -217,9 +217,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 40.0,
-      "Width": 130.0
+      "Height": 135,
+      "Length": 40,
+      "Width": 130
     },
     "Connections": [
       {
@@ -251,9 +251,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 42.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 42,
+      "Width": 140
     },
     "Connections": [
       {
@@ -285,9 +285,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 185.0,
+      "Height": 185,
       "Length": 420.5,
-      "Width": 185.0
+      "Width": 185
     },
     "Connections": [
       {
@@ -319,9 +319,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 328.0,
-      "Width": 140.0
+      "Height": 160,
+      "Length": 328,
+      "Width": 140
     },
     "GlobalId": "11S$RCtF5EYhn2fyM36FMl",
     "Photos": []
@@ -333,9 +333,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 241.0,
-      "Width": 125.0
+      "Height": 135,
+      "Length": 241,
+      "Width": 125
     },
     "Connections": [
       {
@@ -367,9 +367,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 35.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -393,9 +393,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 194.0,
-      "Width": 95.0
+      "Height": 135,
+      "Length": 194,
+      "Width": 95
     },
     "Connections": [
       {
@@ -426,9 +426,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 349.0,
-      "Width": 140.0
+      "Height": 180,
+      "Length": 349,
+      "Width": 140
     },
     "Connections": [
       {
@@ -460,9 +460,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 140
     },
     "Connections": [
       {
@@ -494,9 +494,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 276.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 276,
+      "Width": 140
     },
     "Connections": [
       {
@@ -532,9 +532,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 290.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 290,
+      "Width": 160
     },
     "Connections": [
       {
@@ -571,9 +571,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 173.0,
-      "Width": 170.0
+      "Height": 180,
+      "Length": 173,
+      "Width": 170
     },
     "Connections": [
       {
@@ -610,9 +610,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 137.0,
-      "Width": 150.0
+      "Height": 155,
+      "Length": 137,
+      "Width": 150
     },
     "Connections": [
       {
@@ -644,9 +644,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 169.0,
-      "Width": 125.0
+      "Height": 165,
+      "Length": 169,
+      "Width": 125
     },
     "Connections": [
       {
@@ -678,9 +678,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 326.0,
-      "Width": 155.0
+      "Height": 165,
+      "Length": 326,
+      "Width": 155
     },
     "Connections": [
       {
@@ -717,9 +717,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 486.0,
-      "Width": 160.0
+      "Height": 240,
+      "Length": 486,
+      "Width": 160
     },
     "Connections": [
       {
@@ -751,9 +751,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 203.5,
-      "Width": 170.0
+      "Width": 170
     },
     "Connections": [
       {
@@ -785,9 +785,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 243.0,
-      "Width": 155.0
+      "Height": 170,
+      "Length": 243,
+      "Width": 155
     },
     "Connections": [
       {
@@ -818,9 +818,9 @@
     "CorrectedID": "667",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 155.0,
-      "Width": 80.0
+      "Height": 140,
+      "Length": 155,
+      "Width": 80
     },
     "Damages": [
       {
@@ -839,9 +839,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 134.0,
-      "Width": 150.0
+      "Height": 170,
+      "Length": 134,
+      "Width": 150
     },
     "Connections": [
       {
@@ -873,9 +873,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 161.0,
-      "Width": 120.0
+      "Height": 160,
+      "Length": 161,
+      "Width": 120
     },
     "Connections": [
       {
@@ -907,9 +907,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 254.0,
-      "Width": 80.0
+      "Height": 280,
+      "Length": 254,
+      "Width": 80
     },
     "Connections": [
       {
@@ -933,9 +933,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 354.0,
-      "Width": 170.0
+      "Height": 190,
+      "Length": 354,
+      "Width": 170
     },
     "Connections": [
       {
@@ -972,9 +972,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 319.0,
-      "Width": 170.0
+      "Height": 190,
+      "Length": 319,
+      "Width": 170
     },
     "Connections": [
       {
@@ -998,7 +998,7 @@
     ],
     "GlobalId": "13aUJjoYbC9wrjZB2UX0bj",
     "Photos": [
-      "public\\images\\damage\\binderstrebe_715_montage_prep.png"
+      "images/damage/binderstrebe_715_montage_prep.png"
     ]
   },
   "2M32NfROX2k8HtgcQER7xB": {
@@ -1008,9 +1008,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 152.0,
-      "Width": 80.0
+      "Height": 130,
+      "Length": 152,
+      "Width": 80
     },
     "Connections": [
       {
@@ -1047,9 +1047,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 328.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -1080,9 +1080,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 117.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 117,
+      "Width": 80
     },
     "Damages": [
       {
@@ -1100,9 +1100,9 @@
     "CorrectedID": "30",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 379.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 379,
+      "Width": 160
     },
     "Connections": [
       {
@@ -1133,9 +1133,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 284.0,
-      "Width": 160.0
+      "Height": 165,
+      "Length": 284,
+      "Width": 160
     },
     "Connections": [
       {
@@ -1167,9 +1167,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 230.0,
-      "Length": 313.0,
-      "Width": 160.0
+      "Height": 230,
+      "Length": 313,
+      "Width": 160
     },
     "Connections": [
       {
@@ -1193,9 +1193,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 342.0,
-      "Width": 190.0
+      "Height": 215,
+      "Length": 342,
+      "Width": 190
     },
     "Connections": [
       {
@@ -1227,9 +1227,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 240.0,
-      "Width": 170.0
+      "Height": 175,
+      "Length": 240,
+      "Width": 170
     },
     "Connections": [
       {
@@ -1299,9 +1299,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 113.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 113,
+      "Width": 150
     },
     "Connections": [
       {
@@ -1333,9 +1333,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 221.0,
-      "Width": 145.0
+      "Height": 160,
+      "Length": 221,
+      "Width": 145
     },
     "Connections": [
       {
@@ -1367,9 +1367,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 383.0,
-      "Width": 75.0
+      "Height": 280,
+      "Length": 383,
+      "Width": 75
     },
     "Connections": [
       {
@@ -1398,9 +1398,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 292.0,
-      "Width": 155.0
+      "Height": 145,
+      "Length": 292,
+      "Width": 155
     },
     "Connections": [
       {
@@ -1432,9 +1432,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 453.0,
-      "Width": 170.0
+      "Height": 215,
+      "Length": 453,
+      "Width": 170
     },
     "Connections": [
       {
@@ -1463,9 +1463,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 92.0,
-      "Width": 175.0
+      "Height": 195,
+      "Length": 92,
+      "Width": 175
     },
     "Connections": [
       {
@@ -1494,9 +1494,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 302.0,
-      "Width": 140.0
+      "Height": 145,
+      "Length": 302,
+      "Width": 140
     },
     "Connections": [
       {
@@ -1528,9 +1528,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 328.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -1549,9 +1549,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 210.0,
-      "Width": 80.0
+      "Height": 130,
+      "Length": 210,
+      "Width": 80
     },
     "Connections": [
       {
@@ -1570,9 +1570,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 326.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 326,
+      "Width": 140
     },
     "Connections": [
       {
@@ -1596,9 +1596,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 45.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 45,
+      "Width": 130
     },
     "Connections": [
       {
@@ -1622,9 +1622,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 132.0,
-      "Width": 75.0
+      "Height": 120,
+      "Length": 132,
+      "Width": 75
     },
     "Connections": [
       {
@@ -1648,9 +1648,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 209.0,
-      "Width": 105.0
+      "Height": 265,
+      "Length": 209,
+      "Width": 105
     },
     "Connections": [
       {
@@ -1680,9 +1680,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 115.0,
+      "Height": 115,
       "Length": 142.5,
-      "Width": 85.0
+      "Width": 85
     },
     "Connections": [
       {
@@ -1706,9 +1706,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 232.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 232,
+      "Width": 130
     },
     "Connections": [
       {
@@ -1739,9 +1739,9 @@
     "CorrectedID": "946",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 147.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 147,
+      "Width": 120
     },
     "Connections": [
       {
@@ -1773,9 +1773,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 302.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 302,
+      "Width": 130
     },
     "Connections": [
       {
@@ -1802,9 +1802,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 169.0,
-      "Width": 124.0
+      "Height": 160,
+      "Length": 169,
+      "Width": 124
     },
     "Connections": [
       {
@@ -1828,9 +1828,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 267.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 267,
+      "Width": 160
     },
     "Connections": [
       {
@@ -1861,9 +1861,9 @@
     "CorrectedID": "517",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 329.0,
-      "Width": 120.0
+      "Height": 130,
+      "Length": 329,
+      "Width": 120
     },
     "Connections": [
       {
@@ -1894,9 +1894,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 233.0,
-      "Width": 125.0
+      "Height": 160,
+      "Length": 233,
+      "Width": 125
     },
     "Connections": [
       {
@@ -1920,9 +1920,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 452.0,
-      "Width": 200.0
+      "Height": 240,
+      "Length": 452,
+      "Width": 200
     },
     "Connections": [
       {
@@ -1950,9 +1950,9 @@
     "CorrectedID": "336",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 302.0,
-      "Width": 115.0
+      "Height": 120,
+      "Length": 302,
+      "Width": 115
     },
     "Damages": [
       {
@@ -1975,9 +1975,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 115.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -2009,9 +2009,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 375.0,
-      "Width": 150.0
+      "Height": 220,
+      "Length": 375,
+      "Width": 150
     },
     "Connections": [
       {
@@ -2043,9 +2043,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 325.0,
-      "Width": 140.0
+      "Height": 135,
+      "Length": 325,
+      "Width": 140
     },
     "Connections": [
       {
@@ -2069,9 +2069,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 260.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -2103,9 +2103,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 347.0,
-      "Width": 160.0
+      "Height": 215,
+      "Length": 347,
+      "Width": 160
     },
     "Connections": [
       {
@@ -2135,9 +2135,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 759.0,
-      "Width": 205.0
+      "Height": 250,
+      "Length": 759,
+      "Width": 205
     },
     "Damages": [
       {
@@ -2159,9 +2159,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 147.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 147,
+      "Width": 140
     },
     "Connections": [
       {
@@ -2193,9 +2193,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
+      "Height": 220,
       "Length": 451.5,
-      "Width": 175.0
+      "Width": 175
     },
     "Connections": [
       {
@@ -2219,9 +2219,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 146.0,
-      "Width": 155.0
+      "Height": 165,
+      "Length": 146,
+      "Width": 155
     },
     "Connections": [
       {
@@ -2253,9 +2253,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 219.0,
-      "Width": 145.0
+      "Height": 180,
+      "Length": 219,
+      "Width": 145
     },
     "Connections": [
       {
@@ -2286,9 +2286,9 @@
     "CorrectedID": "436",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 327.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -2320,9 +2320,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
+      "Height": 180,
       "Length": 273.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -2353,9 +2353,9 @@
     "CorrectedID": "1042",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 414.0,
-      "Width": 60.0
+      "Height": 215,
+      "Length": 414,
+      "Width": 60
     },
     "Connections": [
       {
@@ -2391,9 +2391,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 375.0,
-      "Width": 160.0
+      "Height": 210,
+      "Length": 375,
+      "Width": 160
     },
     "Connections": [
       {
@@ -2418,9 +2418,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 12.0,
+      "Height": 12,
       "Length": 0.43,
-      "Width": 12.0
+      "Width": 12
     },
     "Connections": [
       {
@@ -2444,9 +2444,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 275.0,
-      "Length": 394.0,
-      "Width": 75.0
+      "Height": 275,
+      "Length": 394,
+      "Width": 75
     },
     "Connections": [
       {
@@ -2475,9 +2475,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 36.0,
-      "Width": 130.0
+      "Height": 135,
+      "Length": 36,
+      "Width": 130
     },
     "Connections": [
       {
@@ -2501,9 +2501,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 278.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -2535,9 +2535,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 230.0,
-      "Length": 521.0,
-      "Width": 180.0
+      "Height": 230,
+      "Length": 521,
+      "Width": 180
     },
     "Connections": [
       {
@@ -2567,9 +2567,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 443.0,
-      "Width": 160.0
+      "Height": 200,
+      "Length": 443,
+      "Width": 160
     },
     "Connections": [
       {
@@ -2595,9 +2595,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 205.0,
-      "Length": 476.0,
-      "Width": 205.0
+      "Height": 205,
+      "Length": 476,
+      "Width": 205
     },
     "Connections": [
       {
@@ -2629,9 +2629,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 663.0,
-      "Width": 180.0
+      "Height": 215,
+      "Length": 663,
+      "Width": 180
     },
     "Connections": [
       {
@@ -2660,9 +2660,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 321.0,
-      "Width": 175.0
+      "Height": 185,
+      "Length": 321,
+      "Width": 175
     },
     "Connections": [
       {
@@ -2694,9 +2694,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 393.0,
-      "Width": 90.0
+      "Height": 265,
+      "Length": 393,
+      "Width": 90
     },
     "Connections": [
       {
@@ -2733,9 +2733,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 327.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 327,
+      "Width": 145
     },
     "Connections": [
       {
@@ -2759,9 +2759,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 105.0,
-      "Width": 150.0
+      "Height": 160,
+      "Length": 105,
+      "Width": 150
     },
     "Connections": [
       {
@@ -2793,9 +2793,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 47.0,
-      "Width": 135.0
+      "Height": 135,
+      "Length": 47,
+      "Width": 135
     },
     "Connections": [
       {
@@ -2827,9 +2827,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 331.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 331,
+      "Width": 130
     },
     "Connections": [
       {
@@ -2861,9 +2861,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 235.0,
-      "Length": 373.0,
-      "Width": 160.0
+      "Height": 235,
+      "Length": 373,
+      "Width": 160
     },
     "Connections": [
       {
@@ -2895,9 +2895,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 41.0,
-      "Width": 135.0
+      "Height": 140,
+      "Length": 41,
+      "Width": 135
     },
     "Connections": [
       {
@@ -2921,9 +2921,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 16.0,
+      "Height": 16,
       "Length": 1.47,
-      "Width": 15.0
+      "Width": 15
     },
     "Connections": [
       {
@@ -2947,9 +2947,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 95.0,
-      "Length": 133.0,
-      "Width": 75.0
+      "Height": 95,
+      "Length": 133,
+      "Width": 75
     },
     "Connections": [
       {
@@ -2978,9 +2978,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 203.0,
-      "Width": 140.0
+      "Height": 170,
+      "Length": 203,
+      "Width": 140
     },
     "Connections": [
       {
@@ -3004,9 +3004,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 366.0,
-      "Width": 185.0
+      "Height": 200,
+      "Length": 366,
+      "Width": 185
     },
     "Connections": [
       {
@@ -3038,9 +3038,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
+      "Height": 170,
       "Length": 408.5,
-      "Width": 100.0
+      "Width": 100
     },
     "Connections": [
       {
@@ -3064,9 +3064,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 132.0,
-      "Width": 85.0
+      "Height": 110,
+      "Length": 132,
+      "Width": 85
     },
     "Connections": [
       {
@@ -3098,9 +3098,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 22.0,
+      "Height": 22,
       "Length": 4.2,
-      "Width": 7.0
+      "Width": 7
     },
     "Connections": [
       {
@@ -3136,9 +3136,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 285.0,
+      "Height": 285,
       "Length": 398.5,
-      "Width": 75.0
+      "Width": 75
     },
     "Connections": [
       {
@@ -3174,9 +3174,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 105.0,
+      "Height": 105,
       "Length": 144.5,
-      "Width": 90.0
+      "Width": 90
     },
     "Connections": [
       {
@@ -3198,9 +3198,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 85.0,
+      "Height": 85,
       "Length": 132.5,
-      "Width": 80.0
+      "Width": 80
     },
     "Connections": [
       {
@@ -3230,9 +3230,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 212.0,
-      "Width": 80.0
+      "Height": 120,
+      "Length": 212,
+      "Width": 80
     },
     "Connections": [
       {
@@ -3251,9 +3251,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
+      "Height": 170,
       "Length": 329.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -3277,9 +3277,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 503.0,
-      "Width": 145.0
+      "Height": 220,
+      "Length": 503,
+      "Width": 145
     },
     "Connections": [
       {
@@ -3303,7 +3303,7 @@
     ],
     "GlobalId": "1Xs4x46EvBbgvlqaKWB8vp",
     "Photos": [
-      "public\\images\\damage\\binderstrebe_1027_1039_knagge.png"
+      "images/damage/binderstrebe_1027_1039_knagge.png"
     ]
   },
   "0sPHYInBD6Pw5LZ5QAl5NE": {
@@ -3313,9 +3313,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 290.0,
-      "Width": 135.0
+      "Height": 140,
+      "Length": 290,
+      "Width": 135
     },
     "Connections": [
       {
@@ -3347,9 +3347,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 397.0,
-      "Width": 160.0
+      "Height": 180,
+      "Length": 397,
+      "Width": 160
     },
     "Connections": [
       {
@@ -3384,9 +3384,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 194.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -3417,9 +3417,9 @@
     "CorrectedID": "322",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 194.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 194,
+      "Width": 130
     },
     "Connections": [
       {
@@ -3451,9 +3451,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 499.0,
-      "Width": 100.0
+      "Height": 180,
+      "Length": 499,
+      "Width": 100
     },
     "Damages": [
       {
@@ -3477,9 +3477,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
+      "Height": 200,
       "Length": 451.5,
-      "Width": 180.0
+      "Width": 180
     },
     "Connections": [
       {
@@ -3511,9 +3511,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 327.0,
-      "Width": 180.0
+      "Height": 180,
+      "Length": 327,
+      "Width": 180
     },
     "Connections": [
       {
@@ -3545,9 +3545,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 135.0,
-      "Width": 85.0
+      "Height": 110,
+      "Length": 135,
+      "Width": 85
     },
     "Connections": [
       {
@@ -3579,9 +3579,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 270.0,
-      "Length": 275.0,
-      "Width": 80.0
+      "Height": 270,
+      "Length": 275,
+      "Width": 80
     },
     "Connections": [
       {
@@ -3616,9 +3616,9 @@
     "CorrectedID": "536",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 329.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 329,
+      "Width": 120
     },
     "Connections": [
       {
@@ -3649,9 +3649,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 266.0,
-      "Width": 75.0
+      "Height": 250,
+      "Length": 266,
+      "Width": 75
     },
     "Connections": [
       {
@@ -3675,9 +3675,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 305.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 305,
+      "Width": 140
     },
     "Connections": [
       {
@@ -3708,9 +3708,9 @@
     "CorrectedID": "45",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 301.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 301,
+      "Width": 120
     },
     "Connections": [
       {
@@ -3736,9 +3736,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 153.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 153,
+      "Width": 130
     },
     "GlobalId": "0WmWfLe0f7X9SwbHIjNORf",
     "Photos": []
@@ -3750,9 +3750,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 158.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 158,
+      "Width": 130
     },
     "Connections": [
       {
@@ -3776,9 +3776,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 258.0,
-      "Width": 175.0
+      "Height": 180,
+      "Length": 258,
+      "Width": 175
     },
     "Connections": [
       {
@@ -3815,9 +3815,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 330.0,
-      "Width": 150.0
+      "Height": 160,
+      "Length": 330,
+      "Width": 150
     },
     "GlobalId": "2OYxdJ1E98ewIYN30Yu_Lv",
     "Photos": []
@@ -3829,9 +3829,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 34.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -3855,9 +3855,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 225.0,
+      "Height": 225,
       "Length": 383.5,
-      "Width": 225.0
+      "Width": 225
     },
     "Damages": [
       {
@@ -3876,9 +3876,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 312.0,
-      "Width": 100.0
+      "Height": 280,
+      "Length": 312,
+      "Width": 100
     },
     "Connections": [
       {
@@ -3896,9 +3896,9 @@
     "CorrectedID": "941",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 365.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 365,
+      "Width": 120
     },
     "Connections": [
       {
@@ -3924,9 +3924,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 205.0,
+      "Height": 205,
       "Length": 295.5,
-      "Width": 135.0
+      "Width": 135
     },
     "GlobalId": "2$1ABnO4H1AOdVy0ounvL6",
     "Photos": []
@@ -3938,9 +3938,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 328.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 328,
+      "Width": 170
     },
     "Connections": [
       {
@@ -3972,9 +3972,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 310.0,
-      "Length": 86.0,
-      "Width": 200.0
+      "Height": 310,
+      "Length": 86,
+      "Width": 200
     },
     "GlobalId": "3W8eKGJfDBPfFGp$TLKlSq",
     "Photos": []
@@ -3986,9 +3986,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
+      "Height": 220,
       "Length": 486.5,
-      "Width": 170.0
+      "Width": 170
     },
     "Connections": [
       {
@@ -4020,9 +4020,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 140.0,
-      "Width": 90.0
+      "Height": 110,
+      "Length": 140,
+      "Width": 90
     },
     "Connections": [
       {
@@ -4058,9 +4058,9 @@
     "CorrectedID": "824",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 140
     },
     "Connections": [
       {
@@ -4083,9 +4083,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 85.0,
-      "Length": 160.0,
-      "Width": 85.0
+      "Height": 85,
+      "Length": 160,
+      "Width": 85
     },
     "GlobalId": "3EywQ3CBz2Q8wVUtMCJtdV",
     "Photos": []
@@ -4097,9 +4097,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 326.0,
-      "Width": 125.0
+      "Height": 140,
+      "Length": 326,
+      "Width": 125
     },
     "Connections": [
       {
@@ -4123,9 +4123,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 411.0,
-      "Width": 65.0
+      "Height": 210,
+      "Length": 411,
+      "Width": 65
     },
     "Connections": [
       {
@@ -4158,9 +4158,9 @@
     "CorrectedID": "823",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 130
     },
     "Connections": [
       {
@@ -4192,9 +4192,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 131.0,
-      "Width": 120.0
+      "Height": 155,
+      "Length": 131,
+      "Width": 120
     },
     "Connections": [
       {
@@ -4226,9 +4226,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 176.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 176,
+      "Width": 160
     },
     "Connections": [
       {
@@ -4265,9 +4265,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 176.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 176,
+      "Width": 130
     },
     "Connections": [
       {
@@ -4290,9 +4290,9 @@
     "CorrectedID": "15",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 309.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 309,
+      "Width": 120
     },
     "Connections": [
       {
@@ -4319,9 +4319,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 152.0,
-      "Width": 155.0
+      "Height": 155,
+      "Length": 152,
+      "Width": 155
     },
     "Connections": [
       {
@@ -4351,9 +4351,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 387.0,
-      "Width": 125.0
+      "Height": 135,
+      "Length": 387,
+      "Width": 125
     },
     "Connections": [
       {
@@ -4391,9 +4391,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
+      "Height": 200,
       "Length": 358.5,
-      "Width": 180.0
+      "Width": 180
     },
     "Connections": [
       {
@@ -4425,9 +4425,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 230.0,
-      "Length": 378.0,
-      "Width": 155.0
+      "Height": 230,
+      "Length": 378,
+      "Width": 155
     },
     "Connections": [
       {
@@ -4459,9 +4459,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 112.0,
-      "Width": 140.0
+      "Height": 180,
+      "Length": 112,
+      "Width": 140
     },
     "Connections": [
       {
@@ -4491,9 +4491,9 @@
     "CorrectedID": "736",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 285.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 285,
+      "Width": 120
     },
     "Connections": [
       {
@@ -4524,9 +4524,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 329.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 329,
+      "Width": 130
     },
     "Connections": [
       {
@@ -4558,9 +4558,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 277.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -4587,9 +4587,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 330.0,
-      "Length": 110.0,
-      "Width": 265.0
+      "Height": 330,
+      "Length": 110,
+      "Width": 265
     },
     "Damages": [
       {
@@ -4608,9 +4608,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 136.0,
-      "Width": 110.0
+      "Height": 120,
+      "Length": 136,
+      "Width": 110
     },
     "Connections": [
       {
@@ -4642,9 +4642,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 290.0,
-      "Width": 150.0
+      "Height": 160,
+      "Length": 290,
+      "Width": 150
     },
     "Connections": [
       {
@@ -4668,9 +4668,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 227.0,
-      "Width": 150.0
+      "Height": 170,
+      "Length": 227,
+      "Width": 150
     },
     "Connections": [
       {
@@ -4694,7 +4694,7 @@
     ],
     "GlobalId": "11LmIukA59vx1j$TmyncU8",
     "Photos": [
-      "public\\images\\damage\\binderstrebe_715_montage_prep.png"
+      "images/damage/binderstrebe_715_montage_prep.png"
     ]
   },
   "1UzrPGBxj8OgitHGFBFC3S": {
@@ -4704,9 +4704,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 286.0,
-      "Width": 180.0
+      "Height": 195,
+      "Length": 286,
+      "Width": 180
     },
     "Connections": [
       {
@@ -4751,9 +4751,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 224.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 224,
+      "Width": 80
     },
     "GlobalId": "3oeaMP93X3IwMd5gCA1XVg",
     "Photos": []
@@ -4765,9 +4765,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 286.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 286,
+      "Width": 150
     },
     "Connections": [
       {
@@ -4791,9 +4791,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 149.0,
-      "Width": 100.0
+      "Height": 125,
+      "Length": 149,
+      "Width": 100
     },
     "Connections": [
       {
@@ -4830,9 +4830,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 275.0,
-      "Length": 276.0,
-      "Width": 80.0
+      "Height": 275,
+      "Length": 276,
+      "Width": 80
     },
     "Connections": [
       {
@@ -4863,9 +4863,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 353.0,
-      "Width": 170.0
+      "Height": 195,
+      "Length": 353,
+      "Width": 170
     },
     "Connections": [
       {
@@ -4896,9 +4896,9 @@
     "CorrectedID": "618",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 303.0,
-      "Width": 110.0
+      "Height": 120,
+      "Length": 303,
+      "Width": 110
     },
     "Connections": [
       {
@@ -4923,9 +4923,9 @@
     "CorrectedID": "681",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 230.0,
+      "Height": 230,
       "Length": 493.5,
-      "Width": 95.0
+      "Width": 95
     },
     "Connections": [
       {
@@ -4961,9 +4961,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 329.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 329,
+      "Width": 150
     },
     "Connections": [
       {
@@ -4995,9 +4995,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 172.0,
-      "Width": 160.0
+      "Height": 175,
+      "Length": 172,
+      "Width": 160
     },
     "Connections": [
       {
@@ -5021,9 +5021,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 150
     },
     "Connections": [
       {
@@ -5055,9 +5055,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 128.0,
-      "Width": 145.0
+      "Height": 160,
+      "Length": 128,
+      "Width": 145
     },
     "Connections": [
       {
@@ -5089,9 +5089,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 604.0,
-      "Width": 240.0
+      "Height": 260,
+      "Length": 604,
+      "Width": 240
     },
     "Damages": [
       {
@@ -5111,9 +5111,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 122.5,
-      "Width": 110.0
+      "Width": 110
     },
     "Connections": [
       {
@@ -5150,9 +5150,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 400.0,
-      "Width": 85.0
+      "Height": 265,
+      "Length": 400,
+      "Width": 85
     },
     "Connections": [
       {
@@ -5189,9 +5189,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 245.0,
-      "Length": 490.0,
-      "Width": 175.0
+      "Height": 245,
+      "Length": 490,
+      "Width": 175
     },
     "Connections": [
       {
@@ -5236,9 +5236,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 218.0,
-      "Width": 150.0
+      "Height": 180,
+      "Length": 218,
+      "Width": 150
     },
     "Connections": [
       {
@@ -5268,9 +5268,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 432.0,
-      "Width": 165.0
+      "Height": 210,
+      "Length": 432,
+      "Width": 165
     },
     "Connections": [
       {
@@ -5301,9 +5301,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 173.0,
-      "Width": 135.0
+      "Height": 155,
+      "Length": 173,
+      "Width": 135
     },
     "Connections": [
       {
@@ -5335,9 +5335,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 1454.0,
-      "Width": 260.0
+      "Height": 260,
+      "Length": 1454,
+      "Width": 260
     },
     "Connections": [
       {
@@ -5363,9 +5363,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 269.0,
-      "Width": 160.0
+      "Height": 175,
+      "Length": 269,
+      "Width": 160
     },
     "Connections": [
       {
@@ -5387,9 +5387,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 318.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 318,
+      "Width": 130
     },
     "Connections": [
       {
@@ -5417,9 +5417,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
+      "Height": 160,
       "Length": 231.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -5451,9 +5451,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 175.0,
-      "Width": 165.0
+      "Height": 165,
+      "Length": 175,
+      "Width": 165
     },
     "Connections": [
       {
@@ -5499,9 +5499,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 33.0,
-      "Width": 115.0
+      "Height": 130,
+      "Length": 33,
+      "Width": 115
     },
     "Connections": [
       {
@@ -5525,9 +5525,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 270.0,
-      "Length": 1459.0,
-      "Width": 270.0
+      "Height": 270,
+      "Length": 1459,
+      "Width": 270
     },
     "Connections": [
       {
@@ -5552,9 +5552,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 280.0,
-      "Width": 140.0
+      "Height": 195,
+      "Length": 280,
+      "Width": 140
     },
     "Connections": [
       {
@@ -5578,9 +5578,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 207.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 207,
+      "Width": 120
     },
     "Connections": [
       {
@@ -5612,9 +5612,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
+      "Height": 195,
       "Length": 290.5,
-      "Width": 165.0
+      "Width": 165
     },
     "Connections": [
       {
@@ -5638,9 +5638,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 303.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 303,
+      "Width": 130
     },
     "Connections": [
       {
@@ -5672,9 +5672,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 487.0,
-      "Width": 170.0
+      "Height": 215,
+      "Length": 487,
+      "Width": 170
     },
     "Connections": [
       {
@@ -5706,9 +5706,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 286.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 286,
+      "Width": 120
     },
     "Connections": [
       {
@@ -5740,9 +5740,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 372.0,
-      "Width": 165.0
+      "Height": 215,
+      "Length": 372,
+      "Width": 165
     },
     "Connections": [
       {
@@ -5772,9 +5772,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 309.0,
-      "Width": 125.0
+      "Height": 125,
+      "Length": 309,
+      "Width": 125
     },
     "GlobalId": "1gfR9pfSTBlvUpP25ArQ8W",
     "Level": "0",
@@ -5795,9 +5795,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 133.0,
-      "Width": 175.0
+      "Height": 190,
+      "Length": 133,
+      "Width": 175
     },
     "Connections": [
       {
@@ -5821,9 +5821,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 407.0,
-      "Width": 75.0
+      "Height": 265,
+      "Length": 407,
+      "Width": 75
     },
     "Connections": [
       {
@@ -5852,9 +5852,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 208.0,
-      "Width": 145.0
+      "Height": 165,
+      "Length": 208,
+      "Width": 145
     },
     "Connections": [
       {
@@ -5878,9 +5878,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 246.0,
-      "Width": 170.0
+      "Height": 180,
+      "Length": 246,
+      "Width": 170
     },
     "Connections": [
       {
@@ -5912,9 +5912,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 396.0,
-      "Width": 190.0
+      "Height": 210,
+      "Length": 396,
+      "Width": 190
     },
     "Connections": [
       {
@@ -5949,9 +5949,9 @@
     "CorrectedID": "135",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 308.0,
-      "Width": 110.0
+      "Height": 120,
+      "Length": 308,
+      "Width": 110
     },
     "Connections": [
       {
@@ -5977,9 +5977,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 187.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 187,
+      "Width": 170
     },
     "Connections": [
       {
@@ -6003,9 +6003,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 127.0,
-      "Width": 110.0
+      "Height": 125,
+      "Length": 127,
+      "Width": 110
     },
     "Connections": [
       {
@@ -6037,9 +6037,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 147.0,
-      "Width": 155.0
+      "Height": 155,
+      "Length": 147,
+      "Width": 155
     },
     "Connections": [
       {
@@ -6071,9 +6071,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 173.0,
-      "Width": 145.0
+      "Height": 155,
+      "Length": 173,
+      "Width": 145
     },
     "Connections": [
       {
@@ -6097,9 +6097,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 22.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -6122,9 +6122,9 @@
     "CorrectedID": "7",
     "ComponentType": "Binderbalken",
     "Dimensions": {
-      "Height": 230.0,
+      "Height": 230,
       "Length": 355.5,
-      "Width": 190.0
+      "Width": 190
     },
     "Connections": [
       {
@@ -6155,9 +6155,9 @@
     "CorrectedID": "718",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 290.0,
-      "Width": 110.0
+      "Height": 120,
+      "Length": 290,
+      "Width": 110
     },
     "Connections": [
       {
@@ -6183,9 +6183,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 328.0,
-      "Width": 155.0
+      "Height": 170,
+      "Length": 328,
+      "Width": 155
     },
     "Connections": [
       {
@@ -6217,9 +6217,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 281.0,
-      "Width": 180.0
+      "Height": 210,
+      "Length": 281,
+      "Width": 180
     },
     "Connections": [
       {
@@ -6256,9 +6256,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 144.0,
-      "Width": 95.0
+      "Height": 120,
+      "Length": 144,
+      "Width": 95
     },
     "Connections": [
       {
@@ -6295,9 +6295,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 176.0,
-      "Width": 155.0
+      "Height": 160,
+      "Length": 176,
+      "Width": 155
     },
     "Connections": [
       {
@@ -6321,9 +6321,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
+      "Height": 240,
       "Length": 486.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -6353,9 +6353,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 320.0,
-      "Width": 135.0
+      "Height": 135,
+      "Length": 320,
+      "Width": 135
     },
     "Connections": [
       {
@@ -6393,9 +6393,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 215.0,
-      "Width": 150.0
+      "Height": 185,
+      "Length": 215,
+      "Width": 150
     },
     "Connections": [
       {
@@ -6440,9 +6440,9 @@
     ],
     "GlobalId": "1cWeCbPz52R9ay7aN_3Klv",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 326.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 326,
+      "Width": 130
     },
     "Photos": []
   },
@@ -6453,9 +6453,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 357.0,
-      "Width": 200.0
+      "Height": 210,
+      "Length": 357,
+      "Width": 200
     },
     "Connections": [
       {
@@ -6484,9 +6484,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
+      "Height": 180,
       "Length": 265.5,
-      "Width": 175.0
+      "Width": 175
     },
     "Connections": [
       {
@@ -6518,9 +6518,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 66.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -6544,9 +6544,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 235.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 235,
+      "Width": 130
     },
     "Connections": [
       {
@@ -6583,9 +6583,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 15.0,
+      "Height": 15,
       "Length": 0.77,
-      "Width": 12.0
+      "Width": 12
     },
     "Connections": [
       {
@@ -6615,9 +6615,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 316.5,
-      "Width": 125.0
+      "Width": 125
     },
     "Connections": [
       {
@@ -6650,9 +6650,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 31.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 31,
+      "Width": 140
     },
     "Connections": [
       {
@@ -6684,9 +6684,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 202.0,
-      "Width": 155.0
+      "Height": 200,
+      "Length": 202,
+      "Width": 155
     },
     "Connections": [
       {
@@ -6715,9 +6715,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 168.0,
-      "Width": 160.0
+      "Height": 180,
+      "Length": 168,
+      "Width": 160
     },
     "Connections": [
       {
@@ -6740,9 +6740,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 95.0,
-      "Length": 136.0,
-      "Width": 90.0
+      "Height": 95,
+      "Length": 136,
+      "Width": 90
     },
     "Connections": [
       {
@@ -6796,9 +6796,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 306.0,
-      "Width": 80.0
+      "Height": 280,
+      "Length": 306,
+      "Width": 80
     },
     "Connections": [
       {
@@ -6816,9 +6816,9 @@
     "CorrectedID": "11",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 368.0,
-      "Width": 170.0
+      "Height": 220,
+      "Length": 368,
+      "Width": 170
     },
     "Connections": [
       {
@@ -6855,9 +6855,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
+      "Height": 180,
       "Length": 175.5,
-      "Width": 125.0
+      "Width": 125
     },
     "Connections": [
       {
@@ -6881,9 +6881,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 141.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 141,
+      "Width": 130
     },
     "Connections": [
       {
@@ -6915,9 +6915,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 105.0,
-      "Length": 124.0,
-      "Width": 90.0
+      "Height": 105,
+      "Length": 124,
+      "Width": 90
     },
     "Connections": [
       {
@@ -6953,9 +6953,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 120.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 120,
+      "Width": 80
     },
     "GlobalId": "1eZG25q9n7sgcNu9iArYqR",
     "Photos": []
@@ -6967,9 +6967,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 191.5,
-      "Width": 115.0
+      "Width": 115
     },
     "Connections": [
       {
@@ -6988,9 +6988,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 179.0,
-      "Width": 140.0
+      "Height": 180,
+      "Length": 179,
+      "Width": 140
     },
     "Connections": [
       {
@@ -7022,9 +7022,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 92.0,
-      "Width": 280.0
+      "Height": 280,
+      "Length": 92,
+      "Width": 280
     },
     "Damages": [
       {
@@ -7043,9 +7043,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 103.0,
-      "Width": 110.0
+      "Height": 155,
+      "Length": 103,
+      "Width": 110
     },
     "Connections": [
       {
@@ -7077,9 +7077,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 149.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 149,
+      "Width": 140
     },
     "Connections": [
       {
@@ -7106,9 +7106,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 113.0,
-      "Width": 145.0
+      "Height": 175,
+      "Length": 113,
+      "Width": 145
     },
     "Connections": [
       {
@@ -7145,9 +7145,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 66.5,
-      "Width": 110.0
+      "Width": 110
     },
     "Damages": [
       {
@@ -7167,9 +7167,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 290.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 290,
+      "Width": 145
     },
     "Connections": [
       {
@@ -7193,9 +7193,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
+      "Height": 185,
       "Length": 170.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -7227,9 +7227,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 205.0,
+      "Height": 205,
       "Length": 234.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -7260,9 +7260,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 160.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -7293,9 +7293,9 @@
     "CorrectedID": "418",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 326.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 326,
+      "Width": 120
     },
     "Connections": [
       {
@@ -7326,9 +7326,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 225.0,
-      "Length": 476.0,
-      "Width": 175.0
+      "Height": 225,
+      "Length": 476,
+      "Width": 175
     },
     "Connections": [
       {
@@ -7365,9 +7365,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 190.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 190,
+      "Width": 170
     },
     "GlobalId": "3NtgCZ$Az35QvR6DDvzFYU",
     "Photos": []
@@ -7388,9 +7388,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 517.0,
-      "Width": 210.0
+      "Height": 210,
+      "Length": 517,
+      "Width": 210
     },
     "Connections": [
       {
@@ -7422,9 +7422,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 469.0,
-      "Width": 120.0
+      "Height": 200,
+      "Length": 469,
+      "Width": 120
     },
     "Connections": [
       {
@@ -7454,9 +7454,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 1453.0,
-      "Width": 240.0
+      "Height": 240,
+      "Length": 1453,
+      "Width": 240
     },
     "Damages": [
       {
@@ -7477,8 +7477,8 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Width": 140.0
+      "Height": 140,
+      "Width": 140
     },
     "Connections": [
       {
@@ -7507,9 +7507,9 @@
     "CorrectedID": "305",
     "ComponentType": "Binderbalken",
     "Dimensions": {
-      "Height": 270.0,
-      "Length": 970.0,
-      "Width": 240.0
+      "Height": 270,
+      "Length": 970,
+      "Width": 240
     },
     "GlobalId": "3Gb4kw73fAJRQJlPuz5Tsu",
     "Level": "0",
@@ -7531,9 +7531,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 225.0,
-      "Length": 565.0,
-      "Width": 160.0
+      "Height": 225,
+      "Length": 565,
+      "Width": 160
     },
     "Connections": [
       {
@@ -7565,9 +7565,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 167.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 167,
+      "Width": 120
     },
     "Connections": [
       {
@@ -7597,9 +7597,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 501.0,
-      "Width": 200.0
+      "Height": 220,
+      "Length": 501,
+      "Width": 200
     },
     "Connections": [
       {
@@ -7630,9 +7630,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 196.0,
-      "Width": 100.0
+      "Height": 145,
+      "Length": 196,
+      "Width": 100
     },
     "Connections": [
       {
@@ -7664,9 +7664,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 471.0,
-      "Width": 180.0
+      "Height": 195,
+      "Length": 471,
+      "Width": 180
     },
     "Connections": [
       {
@@ -7697,9 +7697,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 133.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 133,
+      "Width": 130
     },
     "Connections": [
       {
@@ -7731,9 +7731,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 466.0,
-      "Width": 185.0
+      "Height": 220,
+      "Length": 466,
+      "Width": 185
     },
     "Connections": [
       {
@@ -7767,7 +7767,7 @@
     "Dimensions": {
       "Height": 18.5,
       "Length": 4.93,
-      "Width": 16.0
+      "Width": 16
     },
     "Connections": [
       {
@@ -7804,9 +7804,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 139.0,
-      "Width": 90.0
+      "Height": 110,
+      "Length": 139,
+      "Width": 90
     },
     "Connections": [
       {
@@ -7842,9 +7842,9 @@
     "CorrectedID": "1083",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 16.0,
+      "Height": 16,
       "Length": 0.53,
-      "Width": 13.0
+      "Width": 13
     },
     "Connections": [
       {
@@ -7875,9 +7875,9 @@
     "CorrectedID": "1032",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 338.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 338,
+      "Width": 140
     },
     "Damages": [
       {
@@ -7896,9 +7896,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 266.0,
-      "Width": 180.0
+      "Height": 190,
+      "Length": 266,
+      "Width": 180
     },
     "Connections": [
       {
@@ -7930,9 +7930,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 18.0,
+      "Height": 18,
       "Length": 1.62,
-      "Width": 14.0
+      "Width": 14
     },
     "Connections": [
       {
@@ -7972,9 +7972,9 @@
     "ComponentType": "Blue",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 131.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 131,
+      "Width": 80
     },
     "Connections": [
       {
@@ -8016,9 +8016,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 298.0,
-      "Width": 130.0
+      "Height": 160,
+      "Length": 298,
+      "Width": 130
     },
     "Connections": [
       {
@@ -8049,9 +8049,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 105.0,
-      "Length": 68.0,
-      "Width": 80.0
+      "Height": 105,
+      "Length": 68,
+      "Width": 80
     },
     "Damages": [
       {
@@ -8071,9 +8071,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 40.0,
-      "Width": 215.0
+      "Height": 220,
+      "Length": 40,
+      "Width": 215
     },
     "Connections": [
       {
@@ -8109,9 +8109,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 352.0,
-      "Width": 160.0
+      "Height": 190,
+      "Length": 352,
+      "Width": 160
     },
     "Connections": [
       {
@@ -8143,9 +8143,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 117.0,
-      "Width": 110.0
+      "Height": 150,
+      "Length": 117,
+      "Width": 110
     },
     "Connections": [
       {
@@ -8177,9 +8177,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 201.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -8214,9 +8214,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 304.0,
-      "Width": 120.0
+      "Height": 130,
+      "Length": 304,
+      "Width": 120
     },
     "Connections": [
       {
@@ -8247,9 +8247,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
+      "Height": 155,
       "Length": 221.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -8273,9 +8273,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 230.0,
-      "Length": 378.0,
-      "Width": 230.0
+      "Height": 230,
+      "Length": 378,
+      "Width": 230
     },
     "Connections": [
       {
@@ -8307,9 +8307,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 391.0,
-      "Width": 165.0
+      "Height": 220,
+      "Length": 391,
+      "Width": 165
     },
     "Connections": [
       {
@@ -8338,9 +8338,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
+      "Height": 220,
       "Length": 469.5,
-      "Width": 200.0
+      "Width": 200
     },
     "Connections": [
       {
@@ -8377,9 +8377,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 485.0,
-      "Width": 205.0
+      "Height": 220,
+      "Length": 485,
+      "Width": 205
     },
     "Connections": [
       {
@@ -8416,9 +8416,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 218.0,
-      "Width": 145.0
+      "Height": 155,
+      "Length": 218,
+      "Width": 145
     },
     "Connections": [
       {
@@ -8450,9 +8450,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 114.0,
-      "Width": 130.0
+      "Height": 170,
+      "Length": 114,
+      "Width": 130
     },
     "Connections": [
       {
@@ -8484,9 +8484,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 159.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -8515,9 +8515,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 199.0,
-      "Width": 130.0
+      "Height": 160,
+      "Length": 199,
+      "Width": 130
     },
     "Connections": [
       {
@@ -8541,9 +8541,9 @@
     "ComponentType": "Fußpfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 377.0,
-      "Width": 125.0
+      "Height": 130,
+      "Length": 377,
+      "Width": 125
     },
     "Connections": [
       {
@@ -8579,9 +8579,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 167.0,
-      "Width": 135.0
+      "Height": 155,
+      "Length": 167,
+      "Width": 135
     },
     "Connections": [
       {
@@ -8597,7 +8597,7 @@
     ],
     "GlobalId": "2BsY6J2fjBOgXwmMoxgQj0",
     "Photos": [
-      "public\\images\\damage\\binderstrebe_1027_1039_knagge.png"
+      "images/damage/binderstrebe_1027_1039_knagge.png"
     ]
   },
   "2t182gH1bAzPM3KyEzSHxH": {
@@ -8607,9 +8607,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 148.0,
-      "Width": 100.0
+      "Height": 120,
+      "Length": 148,
+      "Width": 100
     },
     "Connections": [
       {
@@ -8633,9 +8633,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 327.0,
-      "Width": 145.0
+      "Height": 195,
+      "Length": 327,
+      "Width": 145
     },
     "Connections": [
       {
@@ -8654,9 +8654,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 225.0,
-      "Width": 140.0
+      "Height": 145,
+      "Length": 225,
+      "Width": 140
     },
     "Connections": [
       {
@@ -8688,9 +8688,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 146.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 146,
+      "Width": 150
     },
     "Connections": [
       {
@@ -8722,9 +8722,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 290.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 290,
+      "Width": 160
     },
     "Connections": [
       {
@@ -8756,9 +8756,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 14.0,
+      "Height": 14,
       "Length": 1.16,
-      "Width": 14.0
+      "Width": 14
     },
     "Connections": [
       {
@@ -8790,9 +8790,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 187.0,
-      "Width": 125.0
+      "Height": 150,
+      "Length": 187,
+      "Width": 125
     },
     "Connections": [
       {
@@ -8824,9 +8824,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 290.0,
-      "Length": 62.0,
-      "Width": 255.0
+      "Height": 290,
+      "Length": 62,
+      "Width": 255
     },
     "GlobalId": "1jmEmC5On5Qu$rPDko25jF",
     "Photos": []
@@ -8838,9 +8838,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 346.0,
-      "Width": 200.0
+      "Height": 200,
+      "Length": 346,
+      "Width": 200
     },
     "Connections": [
       {
@@ -8872,9 +8872,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 329.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -8906,9 +8906,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 482.0,
-      "Width": 215.0
+      "Height": 260,
+      "Length": 482,
+      "Width": 215
     },
     "Connections": [
       {
@@ -8940,9 +8940,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
+      "Height": 240,
       "Length": 525.5,
-      "Width": 180.0
+      "Width": 180
     },
     "Connections": [
       {
@@ -8974,9 +8974,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 243.5,
-      "Width": 125.0
+      "Width": 125
     },
     "Connections": [
       {
@@ -8995,9 +8995,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 214.0,
-      "Width": 90.0
+      "Height": 255,
+      "Length": 214,
+      "Width": 90
     },
     "Connections": [
       {
@@ -9033,9 +9033,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 483.0,
-      "Width": 190.0
+      "Height": 250,
+      "Length": 483,
+      "Width": 190
     },
     "Connections": [
       {
@@ -9067,9 +9067,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 274.0,
-      "Width": 75.0
+      "Height": 250,
+      "Length": 274,
+      "Width": 75
     },
     "Connections": [
       {
@@ -9100,9 +9100,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 528.0,
-      "Width": 130.0
+      "Height": 175,
+      "Length": 528,
+      "Width": 130
     },
     "Connections": [
       {
@@ -9139,9 +9139,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 303.0,
-      "Width": 125.0
+      "Height": 125,
+      "Length": 303,
+      "Width": 125
     },
     "Connections": [
       {
@@ -9173,9 +9173,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 140.0,
-      "Width": 100.0
+      "Height": 120,
+      "Length": 140,
+      "Width": 100
     },
     "Connections": [
       {
@@ -9212,9 +9212,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 28.0,
-      "Width": 110.0
+      "Height": 145,
+      "Length": 28,
+      "Width": 110
     },
     "Connections": [
       {
@@ -9238,9 +9238,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 141.0,
-      "Width": 100.0
+      "Height": 110,
+      "Length": 141,
+      "Width": 100
     },
     "Connections": [
       {
@@ -9277,9 +9277,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 70.0,
-      "Width": 115.0
+      "Height": 155,
+      "Length": 70,
+      "Width": 115
     },
     "Connections": [
       {
@@ -9311,9 +9311,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 214.0,
-      "Width": 80.0
+      "Height": 250,
+      "Length": 214,
+      "Width": 80
     },
     "Connections": [
       {
@@ -9344,9 +9344,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 282.0,
-      "Width": 130.0
+      "Height": 135,
+      "Length": 282,
+      "Width": 130
     },
     "Damages": [
       {
@@ -9384,9 +9384,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 303.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 303,
+      "Width": 130
     },
     "Connections": [
       {
@@ -9409,9 +9409,9 @@
     "CorrectedID": "479",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 139.0,
-      "Width": 95.0
+      "Height": 110,
+      "Length": 139,
+      "Width": 95
     },
     "Connections": [
       {
@@ -9448,9 +9448,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 165.0,
-      "Width": 170.0
+      "Height": 200,
+      "Length": 165,
+      "Width": 170
     },
     "Connections": [
       {
@@ -9482,9 +9482,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 405.0,
-      "Width": 110.0
+      "Height": 195,
+      "Length": 405,
+      "Width": 110
     },
     "Connections": [
       {
@@ -9516,9 +9516,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 497.0,
-      "Width": 140.0
+      "Height": 220,
+      "Length": 497,
+      "Width": 140
     },
     "Connections": [
       {
@@ -9550,9 +9550,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 90.0,
-      "Width": 150.0
+      "Height": 180,
+      "Length": 90,
+      "Width": 150
     },
     "Connections": [
       {
@@ -9576,9 +9576,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 148.0,
-      "Width": 100.0
+      "Height": 120,
+      "Length": 148,
+      "Width": 100
     },
     "Connections": [
       {
@@ -9602,9 +9602,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 230.0,
-      "Length": 638.0,
-      "Width": 205.0
+      "Height": 230,
+      "Length": 638,
+      "Width": 205
     },
     "Connections": [
       {
@@ -9633,9 +9633,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
+      "Height": 180,
       "Length": 299.5,
-      "Width": 165.0
+      "Width": 165
     },
     "Connections": [
       {
@@ -9667,9 +9667,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 221.0,
-      "Width": 175.0
+      "Height": 175,
+      "Length": 221,
+      "Width": 175
     },
     "Connections": [
       {
@@ -9693,9 +9693,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 248.0,
-      "Width": 175.0
+      "Height": 180,
+      "Length": 248,
+      "Width": 175
     },
     "Connections": [
       {
@@ -9736,7 +9736,7 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 15.0,
+      "Height": 15,
       "Length": 3.085,
       "Width": 13.5
     },
@@ -9770,9 +9770,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 660.0,
-      "Width": 255.0
+      "Height": 255,
+      "Length": 660,
+      "Width": 255
     },
     "Damages": [
       {
@@ -9792,9 +9792,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 275.0,
+      "Height": 275,
       "Length": 273.5,
-      "Width": 80.0
+      "Width": 80
     },
     "Connections": [
       {
@@ -9832,9 +9832,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 228.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 228,
+      "Width": 160
     },
     "Connections": [
       {
@@ -9858,9 +9858,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
+      "Height": 160,
       "Length": 285.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -9884,9 +9884,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 278.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -9918,9 +9918,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 114.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -9952,9 +9952,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 225.0,
-      "Length": 373.0,
-      "Width": 160.0
+      "Height": 225,
+      "Length": 373,
+      "Width": 160
     },
     "Connections": [
       {
@@ -9986,9 +9986,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 209.0,
-      "Width": 70.0
+      "Height": 110,
+      "Length": 209,
+      "Width": 70
     },
     "Connections": [
       {
@@ -10007,9 +10007,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 188.0,
-      "Width": 110.0
+      "Height": 140,
+      "Length": 188,
+      "Width": 110
     },
     "Connections": [
       {
@@ -10032,9 +10032,9 @@
     "CorrectedID": "1034",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 251.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -10065,9 +10065,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 186.0,
-      "Width": 130.0
+      "Height": 155,
+      "Length": 186,
+      "Width": 130
     },
     "Connections": [
       {
@@ -10099,9 +10099,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 205.0,
-      "Length": 346.0,
-      "Width": 155.0
+      "Height": 205,
+      "Length": 346,
+      "Width": 155
     },
     "Connections": [
       {
@@ -10140,7 +10140,7 @@
     "Dimensions": {
       "Height": 14.5,
       "Length": 0.71,
-      "Width": 13.0
+      "Width": 13
     },
     "Connections": [
       {
@@ -10171,9 +10171,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 305.0,
-      "Width": 140.0
+      "Height": 145,
+      "Length": 305,
+      "Width": 140
     },
     "Connections": [
       {
@@ -10205,9 +10205,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 246.0,
-      "Width": 150.0
+      "Height": 165,
+      "Length": 246,
+      "Width": 150
     },
     "Connections": [
       {
@@ -10239,9 +10239,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 376.0,
-      "Width": 200.0
+      "Height": 200,
+      "Length": 376,
+      "Width": 200
     },
     "Connections": [
       {
@@ -10273,9 +10273,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 150.0,
-      "Width": 130.0
+      "Height": 135,
+      "Length": 150,
+      "Width": 130
     },
     "Connections": [
       {
@@ -10313,9 +10313,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 223.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 223,
+      "Width": 130
     },
     "Connections": [
       {
@@ -10347,9 +10347,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 121.0,
-      "Width": 100.0
+      "Height": 130,
+      "Length": 121,
+      "Width": 100
     },
     "Connections": [
       {
@@ -10381,9 +10381,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 328.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -10407,9 +10407,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 18.0,
+      "Height": 18,
       "Length": 1.87,
-      "Width": 15.0
+      "Width": 15
     },
     "Connections": [
       {
@@ -10433,9 +10433,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 354.0,
-      "Width": 155.0
+      "Height": 200,
+      "Length": 354,
+      "Width": 155
     },
     "Connections": [
       {
@@ -10467,9 +10467,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 273.0,
-      "Width": 155.0
+      "Height": 185,
+      "Length": 273,
+      "Width": 155
     },
     "Connections": [
       {
@@ -10493,9 +10493,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 29.0,
-      "Width": 120.0
+      "Height": 150,
+      "Length": 29,
+      "Width": 120
     },
     "Connections": [
       {
@@ -10526,9 +10526,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
+      "Height": 160,
       "Length": 149.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -10555,9 +10555,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 134.0,
-      "Width": 170.0
+      "Height": 200,
+      "Length": 134,
+      "Width": 170
     },
     "Connections": [
       {
@@ -10576,9 +10576,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 516.0,
-      "Width": 200.0
+      "Height": 220,
+      "Length": 516,
+      "Width": 200
     },
     "Connections": [
       {
@@ -10610,9 +10610,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 230.0,
-      "Width": 135.0
+      "Height": 155,
+      "Length": 230,
+      "Width": 135
     },
     "Connections": [
       {
@@ -10636,9 +10636,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 305.0,
-      "Length": 392.0,
-      "Width": 75.0
+      "Height": 305,
+      "Length": 392,
+      "Width": 75
     },
     "Connections": [
       {
@@ -10669,9 +10669,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 398.0,
-      "Width": 135.0
+      "Height": 155,
+      "Length": 398,
+      "Width": 135
     },
     "Connections": [
       {
@@ -10698,9 +10698,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 285.0,
+      "Height": 285,
       "Length": 56.5,
-      "Width": 245.0
+      "Width": 245
     },
     "Damages": [
       {
@@ -10718,9 +10718,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 270.0,
+      "Height": 270,
       "Length": 386.5,
-      "Width": 90.0
+      "Width": 90
     },
     "Connections": [
       {
@@ -10756,9 +10756,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
+      "Height": 185,
       "Length": 346.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -10792,7 +10792,7 @@
     "Dimensions": {
       "Height": 15.5,
       "Length": 2.17,
-      "Width": 13.0
+      "Width": 13
     },
     "Connections": [
       {
@@ -10824,9 +10824,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 220.0,
-      "Width": 135.0
+      "Height": 175,
+      "Length": 220,
+      "Width": 135
     },
     "Connections": [
       {
@@ -10858,9 +10858,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 297.0,
-      "Width": 75.0
+      "Height": 265,
+      "Length": 297,
+      "Width": 75
     },
     "Connections": [
       {
@@ -10889,9 +10889,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 176.0,
-      "Width": 130.0
+      "Height": 135,
+      "Length": 176,
+      "Width": 130
     },
     "Connections": [
       {
@@ -10923,9 +10923,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 286.0,
-      "Width": 125.0
+      "Height": 130,
+      "Length": 286,
+      "Width": 125
     },
     "Connections": [
       {
@@ -10954,9 +10954,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 140.5,
-      "Width": 105.0
+      "Width": 105
     },
     "Connections": [
       {
@@ -10988,9 +10988,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 270.0,
-      "Length": 970.0,
-      "Width": 240.0
+      "Height": 270,
+      "Length": 970,
+      "Width": 240
     },
     "Damages": [
       {
@@ -11010,9 +11010,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 385.0,
-      "Width": 170.0
+      "Height": 200,
+      "Length": 385,
+      "Width": 170
     },
     "Connections": [
       {
@@ -11054,9 +11054,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 226.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 226,
+      "Width": 140
     },
     "Connections": [
       {
@@ -11094,9 +11094,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 50.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 50,
+      "Width": 130
     },
     "Connections": [
       {
@@ -11120,7 +11120,7 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 20.0,
+      "Height": 20,
       "Length": 2.69,
       "Width": 7.5
     },
@@ -11151,9 +11151,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 239.0,
-      "Width": 130.0
+      "Height": 160,
+      "Length": 239,
+      "Width": 130
     },
     "Connections": [
       {
@@ -11184,9 +11184,9 @@
     "CorrectedID": "1080",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 16.0,
+      "Height": 16,
       "Length": 1.06,
-      "Width": 13.0
+      "Width": 13
     },
     "Connections": [
       {
@@ -11218,9 +11218,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 212.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 212,
+      "Width": 140
     },
     "Connections": [
       {
@@ -11252,9 +11252,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 305.0,
-      "Length": 401.0,
-      "Width": 80.0
+      "Height": 305,
+      "Length": 401,
+      "Width": 80
     },
     "Connections": [
       {
@@ -11278,9 +11278,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 405.0,
-      "Width": 80.0
+      "Height": 280,
+      "Length": 405,
+      "Width": 80
     },
     "GlobalId": "0944wXV55A6xLuvsPb_Ese",
     "Photos": []
@@ -11292,9 +11292,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 155.0,
+      "Height": 155,
       "Length": 159.5,
-      "Width": 145.0
+      "Width": 145
     },
     "Connections": [
       {
@@ -11326,9 +11326,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 378.0,
-      "Width": 160.0
+      "Height": 210,
+      "Length": 378,
+      "Width": 160
     },
     "Connections": [
       {
@@ -11360,9 +11360,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 269.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 269,
+      "Width": 170
     },
     "Connections": [
       {
@@ -11394,9 +11394,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 172.0,
-      "Width": 160.0
+      "Height": 180,
+      "Length": 172,
+      "Width": 160
     },
     "Connections": [
       {
@@ -11428,9 +11428,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 244.0,
-      "Width": 170.0
+      "Height": 180,
+      "Length": 244,
+      "Width": 170
     },
     "Connections": [
       {
@@ -11462,9 +11462,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 150.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 150,
+      "Width": 130
     },
     "Damages": [
       {
@@ -11484,9 +11484,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 137.0,
-      "Length": 160.0,
-      "Width": 137.0
+      "Height": 137,
+      "Length": 160,
+      "Width": 137
     },
     "Connections": [
       {
@@ -11518,9 +11518,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 124.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 124,
+      "Width": 80
     },
     "Damages": [
       {
@@ -11539,9 +11539,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 329.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 329,
+      "Width": 130
     },
     "Connections": [
       {
@@ -11573,9 +11573,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 36.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -11607,9 +11607,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 115.0,
-      "Length": 124.0,
-      "Width": 80.0
+      "Height": 115,
+      "Length": 124,
+      "Width": 80
     },
     "Connections": [
       {
@@ -11646,9 +11646,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 252.0,
-      "Width": 155.0
+      "Height": 160,
+      "Length": 252,
+      "Width": 155
     },
     "Connections": [
       {
@@ -11680,9 +11680,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 153.0,
-      "Width": 145.0
+      "Height": 160,
+      "Length": 153,
+      "Width": 145
     },
     "Connections": [
       {
@@ -11714,9 +11714,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
+      "Height": 210,
       "Length": 354.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -11748,9 +11748,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 309.0,
-      "Width": 220.0
+      "Height": 240,
+      "Length": 309,
+      "Width": 220
     },
     "Damages": [
       {
@@ -11770,9 +11770,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 525.0,
-      "Width": 130.0
+      "Height": 190,
+      "Length": 525,
+      "Width": 130
     },
     "Connections": [
       {
@@ -11804,9 +11804,9 @@
     "ColorClass": "Red",
     "ComponentType": "Schwelle",
     "Dimensions": {
-      "Height": 320.0,
-      "Length": 86.0,
-      "Width": 175.0
+      "Height": 320,
+      "Length": 86,
+      "Width": 175
     },
     "Damages": [
       {
@@ -11825,9 +11825,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 289.0,
-      "Width": 135.0
+      "Height": 150,
+      "Length": 289,
+      "Width": 135
     },
     "Connections": [
       {
@@ -11859,9 +11859,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 310.0,
-      "Width": 220.0
+      "Height": 220,
+      "Length": 310,
+      "Width": 220
     },
     "Damages": [
       {
@@ -11880,9 +11880,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 123.0,
-      "Width": 120.0
+      "Height": 160,
+      "Length": 123,
+      "Width": 120
     },
     "Connections": [
       {
@@ -11913,9 +11913,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 138.0,
-      "Width": 90.0
+      "Height": 100,
+      "Length": 138,
+      "Width": 90
     },
     "Connections": [
       {
@@ -11951,9 +11951,9 @@
     "CorrectedID": "1008",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 91.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 91,
+      "Width": 130
     },
     "Connections": [
       {
@@ -11985,9 +11985,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 186.0,
-      "Width": 140.0
+      "Height": 180,
+      "Length": 186,
+      "Width": 140
     },
     "Connections": [
       {
@@ -12009,9 +12009,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 285.0,
-      "Length": 1458.0,
-      "Width": 270.0
+      "Height": 285,
+      "Length": 1458,
+      "Width": 270
     },
     "Connections": [
       {
@@ -12031,9 +12031,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 126.0,
-      "Width": 90.0
+      "Height": 100,
+      "Length": 126,
+      "Width": 90
     },
     "Damages": [
       {
@@ -12051,9 +12051,9 @@
     "CorrectedID": "636",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 302.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -12079,9 +12079,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 252.0,
-      "Width": 155.0
+      "Height": 170,
+      "Length": 252,
+      "Width": 155
     },
     "Connections": [
       {
@@ -12113,9 +12113,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 40.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -12147,9 +12147,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 21.0,
-      "Width": 155.0
+      "Height": 165,
+      "Length": 21,
+      "Width": 155
     },
     "Connections": [
       {
@@ -12181,9 +12181,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 419.0,
-      "Width": 600.0
+      "Height": 210,
+      "Length": 419,
+      "Width": 600
     },
     "Connections": [
       {
@@ -12219,9 +12219,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 190.0,
+      "Height": 190,
       "Length": 335.5,
-      "Width": 180.0
+      "Width": 180
     },
     "Connections": [
       {
@@ -12253,9 +12253,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 246.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 246,
+      "Width": 160
     },
     "Connections": [
       {
@@ -12287,9 +12287,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 363.0,
-      "Width": 140.0
+      "Height": 160,
+      "Length": 363,
+      "Width": 140
     },
     "Connections": [
       {
@@ -12321,9 +12321,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 432.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 432,
+      "Width": 130
     },
     "Connections": [
       {
@@ -12355,9 +12355,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 150.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -12389,9 +12389,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 272.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 272,
+      "Width": 160
     },
     "Connections": [
       {
@@ -12423,9 +12423,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 148.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -12462,9 +12462,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 43.0,
-      "Width": 100.0
+      "Height": 140,
+      "Length": 43,
+      "Width": 100
     },
     "Connections": [
       {
@@ -12523,9 +12523,9 @@
     "GlobalId": "3rvUg5O_DDWeaTh6cjRgDt",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 16.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Photos": []
   },
@@ -12536,9 +12536,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 303.0,
-      "Width": 135.0
+      "Height": 150,
+      "Length": 303,
+      "Width": 135
     },
     "Connections": [
       {
@@ -12569,9 +12569,9 @@
     "CorrectedID": "518",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 329.0,
-      "Width": 115.0
+      "Height": 120,
+      "Length": 329,
+      "Width": 115
     },
     "Connections": [
       {
@@ -12596,9 +12596,9 @@
     "CorrectedID": "828",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 290.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 290,
+      "Width": 145
     },
     "Connections": [
       {
@@ -12622,9 +12622,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 367.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 367,
+      "Width": 160
     },
     "Connections": [
       {
@@ -12656,9 +12656,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 179.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 179,
+      "Width": 120
     },
     "Connections": [
       {
@@ -12695,9 +12695,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 251.0,
-      "Width": 140.0
+      "Height": 155,
+      "Length": 251,
+      "Width": 140
     },
     "Connections": [
       {
@@ -12733,9 +12733,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 327.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 327,
+      "Width": 130
     },
     "Connections": [
       {
@@ -12758,9 +12758,9 @@
     "CorrectedID": "829",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 145.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 145
     },
     "Connections": [
       {
@@ -12784,9 +12784,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 220.0,
-      "Width": 80.0
+      "Height": 100,
+      "Length": 220,
+      "Width": 80
     },
     "GlobalId": "3ZcH$rCOfF7enZ9LKeUgx8",
     "Photos": []
@@ -12797,9 +12797,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 90.0,
+      "Height": 90,
       "Length": 135.5,
-      "Width": 90.0
+      "Width": 90
     },
     "Connections": [
       {
@@ -12818,9 +12818,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 229.0,
-      "Width": 90.0
+      "Height": 100,
+      "Length": 229,
+      "Width": 90
     },
     "Damages": [
       {
@@ -12839,9 +12839,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 479.0,
-      "Width": 170.0
+      "Height": 240,
+      "Length": 479,
+      "Width": 170
     },
     "Connections": [
       {
@@ -12877,9 +12877,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
+      "Height": 160,
       "Length": 326.5,
-      "Width": 100.0
+      "Width": 100
     },
     "Connections": [
       {
@@ -12903,9 +12903,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 180.0,
+      "Height": 180,
       "Length": 91.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -12929,9 +12929,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 290.0,
-      "Width": 150.0
+      "Height": 155,
+      "Length": 290,
+      "Width": 150
     },
     "Connections": [
       {
@@ -12963,9 +12963,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 302.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -12984,9 +12984,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 305.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 305,
+      "Width": 130
     },
     "Connections": [
       {
@@ -13010,9 +13010,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 143.0,
-      "Width": 140.0
+      "Height": 145,
+      "Length": 143,
+      "Width": 140
     },
     "Connections": [
       {
@@ -13044,9 +13044,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
+      "Height": 210,
       "Length": 235.5,
-      "Width": 170.0
+      "Width": 170
     },
     "Connections": [
       {
@@ -13079,9 +13079,9 @@
   "2KtEKYavz4q8q2JhBH3jeO": {
     "CorrectedID": "486",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 323.0,
-      "Width": 135.0
+      "Height": 175,
+      "Length": 323,
+      "Width": 135
     },
     "GlobalId": "2KtEKYavz4q8q2JhBH3jeO",
     "Photos": []
@@ -13093,9 +13093,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 275.0,
-      "Length": 297.0,
-      "Width": 205.0
+      "Height": 275,
+      "Length": 297,
+      "Width": 205
     },
     "Connections": [
       {
@@ -13114,7 +13114,7 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 17.0,
+      "Height": 17,
       "Length": 1.7,
       "Width": 14.5
     },
@@ -13147,9 +13147,9 @@
     "CorrectedID": "1033",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 300.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 300,
+      "Width": 130
     },
     "Connections": [
       {
@@ -13175,9 +13175,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 155.0,
-      "Width": 90.0
+      "Height": 130,
+      "Length": 155,
+      "Width": 90
     },
     "Connections": [
       {
@@ -13206,9 +13206,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 39.0,
-      "Width": 125.0
+      "Height": 140,
+      "Length": 39,
+      "Width": 125
     },
     "Connections": [
       {
@@ -13230,9 +13230,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 421.0,
-      "Width": 170.0
+      "Height": 210,
+      "Length": 421,
+      "Width": 170
     },
     "Connections": [
       {
@@ -13262,9 +13262,9 @@
     "CorrectedID": "1038",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 73.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 73,
+      "Width": 130
     },
     "Connections": [
       {
@@ -13296,9 +13296,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 38.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 38,
+      "Width": 140
     },
     "Connections": [
       {
@@ -13322,9 +13322,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 343.0,
-      "Width": 160.0
+      "Height": 195,
+      "Length": 343,
+      "Width": 160
     },
     "Connections": [
       {
@@ -13356,9 +13356,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 185.0,
+      "Height": 185,
       "Length": 177.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -13395,9 +13395,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 225.0,
-      "Length": 486.0,
-      "Width": 150.0
+      "Height": 225,
+      "Length": 486,
+      "Width": 150
     },
     "Connections": [
       {
@@ -13428,9 +13428,9 @@
     "CorrectedID": "1035",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 207.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 207,
+      "Width": 140
     },
     "Connections": [
       {
@@ -13456,9 +13456,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 165.0,
+      "Height": 165,
       "Length": 284.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -13500,9 +13500,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 117.0,
-      "Width": 125.0
+      "Height": 130,
+      "Length": 117,
+      "Width": 125
     },
     "Connections": [
       {
@@ -13534,9 +13534,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 269.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 269,
+      "Width": 170
     },
     "Connections": [
       {
@@ -13568,9 +13568,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 85.0,
-      "Length": 97.0,
-      "Width": 80.0
+      "Height": 85,
+      "Length": 97,
+      "Width": 80
     },
     "GlobalId": "1F9D4ra1X2SA_WMtnCIPs4",
     "Photos": []
@@ -13582,9 +13582,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 178.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 178,
+      "Width": 140
     },
     "Connections": [
       {
@@ -13616,9 +13616,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 41.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 41,
+      "Width": 130
     },
     "Connections": [
       {
@@ -13642,9 +13642,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 35.0,
-      "Width": 100.0
+      "Height": 135,
+      "Length": 35,
+      "Width": 100
     },
     "Connections": [
       {
@@ -13667,9 +13667,9 @@
     "CorrectedID": "831",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 150
     },
     "Connections": [
       {
@@ -13701,9 +13701,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 213.0,
-      "Width": 110.0
+      "Height": 145,
+      "Length": 213,
+      "Width": 110
     },
     "Connections": [
       {
@@ -13722,9 +13722,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 119.0,
-      "Width": 125.0
+      "Height": 125,
+      "Length": 119,
+      "Width": 125
     },
     "Damages": [
       {
@@ -13744,9 +13744,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 116.0,
-      "Width": 110.0
+      "Height": 150,
+      "Length": 116,
+      "Width": 110
     },
     "Connections": [
       {
@@ -13777,9 +13777,9 @@
     "CorrectedID": "825",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 290.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 290,
+      "Width": 145
     },
     "Connections": [
       {
@@ -13811,9 +13811,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 234.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 234,
+      "Width": 140
     },
     "Connections": [
       {
@@ -13845,9 +13845,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 138.0,
-      "Width": 70.0
+      "Height": 130,
+      "Length": 138,
+      "Width": 70
     },
     "Connections": [
       {
@@ -13884,9 +13884,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 303.0,
-      "Width": 165.0
+      "Height": 165,
+      "Length": 303,
+      "Width": 165
     },
     "Connections": [
       {
@@ -13918,9 +13918,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 123.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 123,
+      "Width": 150
     },
     "Connections": [
       {
@@ -13952,9 +13952,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 583.0,
-      "Width": 250.0
+      "Height": 265,
+      "Length": 583,
+      "Width": 250
     },
     "Damages": [
       {
@@ -13972,9 +13972,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 310.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 310,
+      "Width": 120
     },
     "GlobalId": "0AlSXFTOvBfeihChQzRvDv",
     "Photos": []
@@ -13986,9 +13986,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 168.0,
-      "Width": 140.0
+      "Height": 160,
+      "Length": 168,
+      "Width": 140
     },
     "Connections": [
       {
@@ -14020,9 +14020,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 215.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -14053,9 +14053,9 @@
     "CorrectedID": "18",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 160.0,
+      "Height": 160,
       "Length": 186.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -14086,9 +14086,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 188.0,
-      "Width": 110.0
+      "Height": 140,
+      "Length": 188,
+      "Width": 110
     },
     "Connections": [
       {
@@ -14120,9 +14120,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 187.0,
-      "Width": 145.0
+      "Height": 175,
+      "Length": 187,
+      "Width": 145
     },
     "Connections": [
       {
@@ -14154,9 +14154,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 305.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 305,
+      "Width": 130
     },
     "Connections": [
       {
@@ -14179,9 +14179,9 @@
     "CorrectedID": "75",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 106.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 106,
+      "Width": 120
     },
     "Connections": [
       {
@@ -14207,9 +14207,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 136.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -14241,9 +14241,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 235.0,
-      "Length": 303.0,
-      "Width": 220.0
+      "Height": 235,
+      "Length": 303,
+      "Width": 220
     },
     "GlobalId": "3iYNKQXgL8b9TWLCcUBKY0",
     "Photos": []
@@ -14255,9 +14255,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 970.0,
-      "Width": 240.0
+      "Height": 260,
+      "Length": 970,
+      "Width": 240
     },
     "GlobalId": "0UJcGzPfzFdfnWyihCZShI",
     "Photos": []
@@ -14269,9 +14269,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 251.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -14295,9 +14295,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 328.0,
-      "Width": 130.0
+      "Height": 170,
+      "Length": 328,
+      "Width": 130
     },
     "Connections": [
       {
@@ -14329,9 +14329,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 70.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Damages": [
       {
@@ -14351,9 +14351,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 105.0,
-      "Length": 140.0,
-      "Width": 85.0
+      "Height": 105,
+      "Length": 140,
+      "Width": 85
     },
     "Connections": [
       {
@@ -14388,9 +14388,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 481.0,
-      "Width": 195.0
+      "Height": 195,
+      "Length": 481,
+      "Width": 195
     },
     "Connections": [
       {
@@ -14421,9 +14421,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 245.0,
-      "Length": 602.0,
-      "Width": 245.0
+      "Height": 245,
+      "Length": 602,
+      "Width": 245
     },
     "GlobalId": "1r14HYln58hwhrS$l1E3Ej",
     "Photos": []
@@ -14435,9 +14435,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 106.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 106,
+      "Width": 140
     },
     "Connections": [
       {
@@ -14469,9 +14469,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 175.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -14494,9 +14494,9 @@
     "CorrectedID": "568",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 235.0,
-      "Length": 444.0,
-      "Width": 100.0
+      "Height": 235,
+      "Length": 444,
+      "Width": 100
     },
     "Connections": [
       {
@@ -14527,9 +14527,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 413.0,
-      "Width": 80.0
+      "Height": 215,
+      "Length": 413,
+      "Width": 80
     },
     "Connections": [
       {
@@ -14565,9 +14565,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 154.0,
-      "Width": 155.0
+      "Height": 170,
+      "Length": 154,
+      "Width": 155
     },
     "Connections": [
       {
@@ -14599,9 +14599,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 325.5,
-      "Width": 90.0
+      "Width": 90
     },
     "Connections": [
       {
@@ -14624,9 +14624,9 @@
     "CorrectedID": "826",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 140
     },
     "Connections": [
       {
@@ -14658,9 +14658,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 316.0,
-      "Width": 210.0
+      "Height": 240,
+      "Length": 316,
+      "Width": 210
     },
     "Damages": [
       {
@@ -14680,9 +14680,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 270.0,
-      "Length": 252.0,
-      "Width": 80.0
+      "Height": 270,
+      "Length": 252,
+      "Width": 80
     },
     "Connections": [
       {
@@ -14707,7 +14707,7 @@
     "Dimensions": {
       "Height": 15.5,
       "Length": 0.87,
-      "Width": 14.0
+      "Width": 14
     },
     "Connections": [
       {
@@ -14738,9 +14738,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 386.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 386,
+      "Width": 160
     },
     "Connections": [
       {
@@ -14772,9 +14772,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
+      "Height": 165,
       "Length": 235.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -14805,9 +14805,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 352.0,
-      "Width": 165.0
+      "Height": 190,
+      "Length": 352,
+      "Width": 165
     },
     "Connections": [
       {
@@ -14839,9 +14839,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 303.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 303,
+      "Width": 140
     },
     "Connections": [
       {
@@ -14865,9 +14865,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 308.0,
-      "Width": 175.0
+      "Height": 210,
+      "Length": 308,
+      "Width": 175
     },
     "Connections": [
       {
@@ -14891,9 +14891,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 273.0,
-      "Width": 150.0
+      "Height": 175,
+      "Length": 273,
+      "Width": 150
     },
     "Connections": [
       {
@@ -14925,9 +14925,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 174.0,
-      "Width": 130.0
+      "Height": 175,
+      "Length": 174,
+      "Width": 130
     },
     "Connections": [
       {
@@ -14951,9 +14951,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 223.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 223,
+      "Width": 150
     },
     "Connections": [
       {
@@ -14975,9 +14975,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 205.0,
+      "Height": 205,
       "Length": 42.7,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -15008,9 +15008,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 140.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 140,
+      "Width": 130
     },
     "Connections": [
       {
@@ -15042,9 +15042,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 17.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 17,
+      "Width": 140
     },
     "Connections": [
       {
@@ -15068,9 +15068,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 88.0,
-      "Width": 170.0
+      "Height": 175,
+      "Length": 88,
+      "Width": 170
     },
     "Connections": [
       {
@@ -15094,9 +15094,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 235.0,
-      "Length": 474.0,
-      "Width": 185.0
+      "Height": 235,
+      "Length": 474,
+      "Width": 185
     },
     "Connections": [
       {
@@ -15133,9 +15133,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 277.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -15167,9 +15167,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 258.0,
-      "Width": 130.0
+      "Height": 150,
+      "Length": 258,
+      "Width": 130
     },
     "Connections": [
       {
@@ -15201,9 +15201,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 211.0,
-      "Width": 80.0
+      "Height": 110,
+      "Length": 211,
+      "Width": 80
     },
     "GlobalId": "3fqQAaBM14QuFh5GYKDqDA",
     "Photos": []
@@ -15215,9 +15215,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 311.0,
-      "Width": 140.0
+      "Height": 165,
+      "Length": 311,
+      "Width": 140
     },
     "Connections": [
       {
@@ -15245,9 +15245,9 @@
     "CorrectedID": "1",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 110.0,
+      "Height": 110,
       "Length": 50.6,
-      "Width": 90.0
+      "Width": 90
     },
     "GlobalId": "1kaB$pYqL2J8BuWxhqQ8$0",
     "ColorClass": "Yellow",
@@ -15272,9 +15272,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 295.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -15306,9 +15306,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 271.0,
-      "Width": 130.0
+      "Height": 140,
+      "Length": 271,
+      "Width": 130
     },
     "Connections": [
       {
@@ -15340,9 +15340,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 970.0,
-      "Width": 240.0
+      "Height": 260,
+      "Length": 970,
+      "Width": 240
     },
     "GlobalId": "1GT1h4AlrFUu164BS2EF8N",
     "Photos": []
@@ -15354,9 +15354,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 69.0,
-      "Width": 110.0
+      "Height": 150,
+      "Length": 69,
+      "Width": 110
     },
     "Damages": [
       {
@@ -15376,9 +15376,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 66.0,
-      "Width": 80.0
+      "Height": 135,
+      "Length": 66,
+      "Width": 80
     },
     "Connections": [
       {
@@ -15397,9 +15397,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 324.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 324,
+      "Width": 170
     },
     "Connections": [
       {
@@ -15431,9 +15431,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 197.0,
-      "Width": 140.0
+      "Height": 165,
+      "Length": 197,
+      "Width": 140
     },
     "Connections": [
       {
@@ -15465,9 +15465,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 206.0,
-      "Width": 135.0
+      "Height": 165,
+      "Length": 206,
+      "Width": 135
     },
     "Connections": [
       {
@@ -15491,9 +15491,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 45.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -15525,7 +15525,7 @@
     "ComponentType": "Fußpfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 13.0,
+      "Height": 13,
       "Length": 1.21,
       "Width": 12.5
     },
@@ -15546,9 +15546,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 71.0,
-      "Width": 110.0
+      "Height": 140,
+      "Length": 71,
+      "Width": 110
     },
     "Connections": [
       {
@@ -15579,9 +15579,9 @@
     "CorrectedID": "1037",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 121.0,
-      "Width": 130.0
+      "Height": 130,
+      "Length": 121,
+      "Width": 130
     },
     "Connections": [
       {
@@ -15612,9 +15612,9 @@
     "CorrectedID": "1006",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 193.0,
-      "Width": 125.0
+      "Height": 140,
+      "Length": 193,
+      "Width": 125
     },
     "Connections": [
       {
@@ -15645,9 +15645,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 460.0,
-      "Width": 140.0
+      "Height": 200,
+      "Length": 460,
+      "Width": 140
     },
     "Connections": [
       {
@@ -15684,9 +15684,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 255.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 255,
+      "Width": 120
     },
     "Connections": [
       {
@@ -15717,9 +15717,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 244.0,
-      "Width": 155.0
+      "Height": 165,
+      "Length": 244,
+      "Width": 155
     },
     "Connections": [
       {
@@ -15743,9 +15743,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 325.0,
-      "Width": 190.0
+      "Height": 220,
+      "Length": 325,
+      "Width": 190
     },
     "Connections": [
       {
@@ -15777,9 +15777,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 240.0,
-      "Length": 326.0,
-      "Width": 220.0
+      "Height": 240,
+      "Length": 326,
+      "Width": 220
     },
     "GlobalId": "2jNGXDDZP9i8_2rJ_vKHeJ",
     "Photos": []
@@ -15791,9 +15791,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 278.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Damages": [
       {
@@ -15813,9 +15813,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
+      "Height": 165,
       "Length": 166.5,
-      "Width": 155.0
+      "Width": 155
     },
     "Connections": [
       {
@@ -15852,9 +15852,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 495.0,
-      "Width": 110.0
+      "Height": 200,
+      "Length": 495,
+      "Width": 110
     },
     "Damages": [
       {
@@ -15873,9 +15873,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 220.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -15899,9 +15899,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 187.0,
-      "Width": 150.0
+      "Height": 165,
+      "Length": 187,
+      "Width": 150
     },
     "Connections": [
       {
@@ -15933,9 +15933,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 483.0,
-      "Width": 220.0
+      "Height": 220,
+      "Length": 483,
+      "Width": 220
     },
     "Connections": [
       {
@@ -15966,9 +15966,9 @@
     "CorrectedID": "1007",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 144.0,
-      "Width": 135.0
+      "Height": 140,
+      "Length": 144,
+      "Width": 135
     },
     "Connections": [
       {
@@ -15998,9 +15998,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 1456.0,
-      "Width": 245.0
+      "Height": 255,
+      "Length": 1456,
+      "Width": 245
     },
     "Damages": [
       {
@@ -16012,7 +16012,7 @@
     "Level": "0",
     "Side": "K-X",
     "Photos": [
-      "public\\images\\damage\\binderbalken_505_stehendes_blatt.png"
+      "images/damage/binderbalken_505_stehendes_blatt.png"
     ]
   },
   "1GMwzmUezDogEQ06bulQ8G": {
@@ -16021,9 +16021,9 @@
     "CorrectedID": "948",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 63.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 63,
+      "Width": 120
     },
     "Connections": [
       {
@@ -16053,9 +16053,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 225.0,
-      "Length": 506.0,
-      "Width": 210.0
+      "Height": 225,
+      "Length": 506,
+      "Width": 210
     },
     "Connections": [
       {
@@ -16086,9 +16086,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 210.0,
-      "Width": 70.0
+      "Height": 110,
+      "Length": 210,
+      "Width": 70
     },
     "Connections": [
       {
@@ -16107,9 +16107,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
+      "Height": 170,
       "Length": 222.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -16141,9 +16141,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 121.0,
-      "Width": 140.0
+      "Height": 180,
+      "Length": 121,
+      "Width": 140
     },
     "Connections": [
       {
@@ -16174,9 +16174,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
+      "Height": 185,
       "Length": 240.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -16200,9 +16200,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 270.0,
-      "Width": 155.0
+      "Height": 155,
+      "Length": 270,
+      "Width": 155
     },
     "Connections": [
       {
@@ -16226,9 +16226,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 156.0,
-      "Width": 125.0
+      "Height": 155,
+      "Length": 156,
+      "Width": 125
     },
     "Connections": [
       {
@@ -16260,9 +16260,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 264.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 264,
+      "Width": 170
     },
     "Connections": [
       {
@@ -16294,9 +16294,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 114.5,
-      "Width": 140.0
+      "Width": 140
     },
     "Connections": [
       {
@@ -16320,9 +16320,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 359.0,
-      "Width": 175.0
+      "Height": 210,
+      "Length": 359,
+      "Width": 175
     },
     "Connections": [
       {
@@ -16354,9 +16354,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 593.0,
-      "Width": 230.0
+      "Height": 255,
+      "Length": 593,
+      "Width": 230
     },
     "GlobalId": "3nela0ioL4Mu6OoWNjxIDC",
     "Photos": []
@@ -16368,9 +16368,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 293.0,
-      "Width": 80.0
+      "Height": 260,
+      "Length": 293,
+      "Width": 80
     },
     "Connections": [
       {
@@ -16399,9 +16399,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 44.0,
-      "Width": 110.0
+      "Height": 140,
+      "Length": 44,
+      "Width": 110
     },
     "Connections": [
       {
@@ -16425,9 +16425,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 290.0,
-      "Width": 120.0
+      "Height": 130,
+      "Length": 290,
+      "Width": 120
     },
     "Connections": [
       {
@@ -16456,9 +16456,9 @@
     "ColorClass": "Red",
     "ComponentType": "Wechsel",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 87.0,
-      "Width": 90.0
+      "Height": 100,
+      "Length": 87,
+      "Width": 90
     },
     "Damages": [
       {
@@ -16477,9 +16477,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 151.5,
-      "Width": 145.0
+      "Width": 145
     },
     "Connections": [
       {
@@ -16510,9 +16510,9 @@
     "CorrectedID": "1084",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 12.0,
+      "Height": 12,
       "Length": 0.39,
-      "Width": 9.0
+      "Width": 9
     },
     "Connections": [
       {
@@ -16543,9 +16543,9 @@
     "CorrectedID": "1036",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 159.0,
-      "Width": 135.0
+      "Height": 150,
+      "Length": 159,
+      "Width": 135
     },
     "Connections": [
       {
@@ -16577,9 +16577,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 970.0,
-      "Width": 250.0
+      "Height": 250,
+      "Length": 970,
+      "Width": 250
     },
     "Damages": [
       {
@@ -16599,9 +16599,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 285.0,
-      "Length": 401.0,
-      "Width": 70.0
+      "Height": 285,
+      "Length": 401,
+      "Width": 70
     },
     "Connections": [
       {
@@ -16630,9 +16630,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 264.0,
-      "Width": 140.0
+      "Height": 160,
+      "Length": 264,
+      "Width": 140
     },
     "Connections": [
       {
@@ -16664,9 +16664,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 121.0,
-      "Width": 125.0
+      "Height": 140,
+      "Length": 121,
+      "Width": 125
     },
     "Connections": [
       {
@@ -16698,9 +16698,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 302.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -16732,9 +16732,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 205.0,
+      "Height": 205,
       "Length": 351.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -16766,9 +16766,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 289.0,
-      "Width": 135.0
+      "Height": 145,
+      "Length": 289,
+      "Width": 135
     },
     "Connections": [
       {
@@ -16799,9 +16799,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 483.0,
-      "Width": 240.0
+      "Height": 280,
+      "Length": 483,
+      "Width": 240
     },
     "Damages": [
       {
@@ -16821,9 +16821,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 100.0,
+      "Height": 100,
       "Length": 146.5,
-      "Width": 100.0
+      "Width": 100
     },
     "Connections": [
       {
@@ -16852,9 +16852,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 215.0,
-      "Width": 150.0
+      "Height": 180,
+      "Length": 215,
+      "Width": 150
     },
     "Connections": [
       {
@@ -16886,9 +16886,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 159.0,
-      "Width": 155.0
+      "Height": 165,
+      "Length": 159,
+      "Width": 155
     },
     "Connections": [
       {
@@ -16920,9 +16920,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 476.0,
-      "Width": 210.0
+      "Height": 220,
+      "Length": 476,
+      "Width": 210
     },
     "Connections": [
       {
@@ -16958,9 +16958,9 @@
     "CorrectedID": "830",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 291.0,
-      "Width": 140.0
+      "Height": 145,
+      "Length": 291,
+      "Width": 140
     },
     "Connections": [
       {
@@ -16989,9 +16989,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
+      "Height": 175,
       "Length": 239.5,
-      "Width": 170.0
+      "Width": 170
     },
     "Connections": [
       {
@@ -17023,9 +17023,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 126.0,
-      "Width": 150.0
+      "Height": 160,
+      "Length": 126,
+      "Width": 150
     },
     "Connections": [
       {
@@ -17049,7 +17049,7 @@
     ],
     "GlobalId": "049NBPiQ5CDPPtYkMPAC3b",
     "Photos": [
-      "public\\images\\damage\\binderstrebe_715_montage_prep.png"
+      "images/damage/binderstrebe_715_montage_prep.png"
     ]
   },
   "1dxT7Sn2X91wj7pevUYJOh": {
@@ -17059,9 +17059,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 303.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 303,
+      "Width": 140
     },
     "Connections": [
       {
@@ -17093,9 +17093,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 192.0,
-      "Width": 170.0
+      "Height": 190,
+      "Length": 192,
+      "Width": 170
     },
     "Connections": [
       {
@@ -17127,9 +17127,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 137.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 137,
+      "Width": 140
     },
     "Connections": [
       {
@@ -17161,9 +17161,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 101.0,
-      "Width": 120.0
+      "Height": 145,
+      "Length": 101,
+      "Width": 120
     },
     "Connections": [
       {
@@ -17195,9 +17195,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 50.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 50,
+      "Width": 120
     },
     "Connections": [
       {
@@ -17220,9 +17220,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 105.0,
-      "Length": 127.0,
-      "Width": 90.0
+      "Height": 105,
+      "Length": 127,
+      "Width": 90
     },
     "GlobalId": "2fjDgmOBT2dxowFDUfS504",
     "Photos": []
@@ -17234,9 +17234,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 970.0,
-      "Width": 280.0
+      "Height": 280,
+      "Length": 970,
+      "Width": 280
     },
     "GlobalId": "1GZl3gqVz0SAeci9xAOhVs",
     "Photos": []
@@ -17253,9 +17253,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 48.0,
-      "Width": 105.0
+      "Height": 135,
+      "Length": 48,
+      "Width": 105
     },
     "Connections": [
       {
@@ -17279,9 +17279,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 133.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 133,
+      "Width": 145
     },
     "Connections": [
       {
@@ -17313,9 +17313,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 318.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 318,
+      "Width": 140
     },
     "GlobalId": "3nCTcMGqr0g9Nb4tl_Xs7G",
     "Photos": []
@@ -17327,9 +17327,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 432.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 432,
+      "Width": 130
     },
     "Connections": [
       {
@@ -17353,9 +17353,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 152.0,
-      "Width": 125.0
+      "Height": 145,
+      "Length": 152,
+      "Width": 125
     },
     "Connections": [
       {
@@ -17387,9 +17387,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
+      "Height": 155,
       "Length": 302.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -17421,9 +17421,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 198.0,
-      "Width": 130.0
+      "Height": 145,
+      "Length": 198,
+      "Width": 130
     },
     "Connections": [
       {
@@ -17455,9 +17455,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 310.0,
-      "Width": 110.0
+      "Height": 140,
+      "Length": 310,
+      "Width": 110
     },
     "Connections": [
       {
@@ -17489,7 +17489,7 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 22.0,
+      "Height": 22,
       "Length": 4.05,
       "Width": 6.5
     },
@@ -17527,9 +17527,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 266.0,
-      "Width": 190.0
+      "Height": 190,
+      "Length": 266,
+      "Width": 190
     },
     "Connections": [
       {
@@ -17566,9 +17566,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 144.0,
-      "Width": 120.0
+      "Height": 135,
+      "Length": 144,
+      "Width": 120
     },
     "Damages": [
       {
@@ -17588,9 +17588,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 327.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 327,
+      "Width": 160
     },
     "Connections": [
       {
@@ -17622,9 +17622,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 50.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 50,
+      "Width": 140
     },
     "Connections": [
       {
@@ -17656,9 +17656,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 138.0,
-      "Width": 100.0
+      "Height": 110,
+      "Length": 138,
+      "Width": 100
     },
     "Connections": [
       {
@@ -17695,9 +17695,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 115.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 115,
+      "Width": 150
     },
     "Connections": [
       {
@@ -17729,9 +17729,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 174.0,
-      "Width": 140.0
+      "Height": 140,
+      "Length": 174,
+      "Width": 140
     },
     "Connections": [
       {
@@ -17763,9 +17763,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 296.0,
-      "Width": 160.0
+      "Height": 200,
+      "Length": 296,
+      "Width": 160
     },
     "Connections": [
       {
@@ -17789,9 +17789,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 140.0,
+      "Height": 140,
       "Length": 166.5,
-      "Width": 135.0
+      "Width": 135
     },
     "Connections": [
       {
@@ -17823,9 +17823,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 125.0,
-      "Length": 118.0,
-      "Width": 120.0
+      "Height": 125,
+      "Length": 118,
+      "Width": 120
     },
     "Connections": [
       {
@@ -17857,9 +17857,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 227.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 227,
+      "Width": 170
     },
     "Connections": [
       {
@@ -17883,9 +17883,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 228.0,
-      "Width": 135.0
+      "Height": 140,
+      "Length": 228,
+      "Width": 135
     },
     "Connections": [
       {
@@ -17912,9 +17912,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 290.0,
-      "Width": 145.0
+      "Height": 145,
+      "Length": 290,
+      "Width": 145
     },
     "Connections": [
       {
@@ -17946,9 +17946,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 473.0,
-      "Width": 195.0
+      "Height": 210,
+      "Length": 473,
+      "Width": 195
     },
     "Connections": [
       {
@@ -17972,9 +17972,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 131.0,
-      "Width": 100.0
+      "Height": 120,
+      "Length": 131,
+      "Width": 100
     },
     "Connections": [
       {
@@ -18024,9 +18024,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 326.0,
-      "Width": 140.0
+      "Height": 160,
+      "Length": 326,
+      "Width": 140
     },
     "Connections": [
       {
@@ -18058,9 +18058,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
+      "Height": 170,
       "Length": 309.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Damages": [
       {
@@ -18084,9 +18084,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 260.0,
-      "Length": 411.0,
-      "Width": 75.0
+      "Height": 260,
+      "Length": 411,
+      "Width": 75
     },
     "Connections": [
       {
@@ -18110,9 +18110,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 130.0,
+      "Height": 130,
       "Length": 326.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -18143,9 +18143,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 182.0,
-      "Width": 150.0
+      "Height": 165,
+      "Length": 182,
+      "Width": 150
     },
     "Connections": [
       {
@@ -18177,9 +18177,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 410.0,
-      "Width": 140.0
+      "Height": 165,
+      "Length": 410,
+      "Width": 140
     },
     "Connections": [
       {
@@ -18211,9 +18211,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 200.0,
-      "Length": 327.0,
-      "Width": 195.0
+      "Height": 200,
+      "Length": 327,
+      "Width": 195
     },
     "Connections": [
       {
@@ -18245,9 +18245,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
+      "Height": 155,
       "Length": 158.5,
-      "Width": 150.0
+      "Width": 150
     },
     "Connections": [
       {
@@ -18278,9 +18278,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 137.0,
-      "Width": 145.0
+      "Height": 155,
+      "Length": 137,
+      "Width": 145
     },
     "Connections": [
       {
@@ -18317,9 +18317,9 @@
     "ComponentType": "Sparren",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 210.0,
-      "Width": 80.0
+      "Height": 110,
+      "Length": 210,
+      "Width": 80
     },
     "Connections": [
       {
@@ -18338,9 +18338,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 148.0,
-      "Width": 130.0
+      "Height": 170,
+      "Length": 148,
+      "Width": 130
     },
     "Connections": [
       {
@@ -18377,9 +18377,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 246.0,
-      "Width": 135.0
+      "Height": 170,
+      "Length": 246,
+      "Width": 135
     },
     "Connections": [
       {
@@ -18411,9 +18411,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 205.0,
-      "Length": 377.0,
-      "Width": 160.0
+      "Height": 205,
+      "Length": 377,
+      "Width": 160
     },
     "Connections": [
       {
@@ -18444,9 +18444,9 @@
     "ColorClass": "Red",
     "ComponentType": "Stich",
     "Dimensions": {
-      "Height": 100.0,
-      "Length": 148.0,
-      "Width": 100.0
+      "Height": 100,
+      "Length": 148,
+      "Width": 100
     },
     "Damages": [
       {
@@ -18465,9 +18465,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 291.0,
-      "Width": 160.0
+      "Height": 175,
+      "Length": 291,
+      "Width": 160
     },
     "Connections": [
       {
@@ -18499,9 +18499,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 240.0,
+      "Height": 240,
       "Length": 486.5,
-      "Width": 160.0
+      "Width": 160
     },
     "Connections": [
       {
@@ -18538,9 +18538,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 285.0,
+      "Height": 285,
       "Length": 275.5,
-      "Width": 70.0
+      "Width": 70
     },
     "Connections": [
       {
@@ -18563,9 +18563,9 @@
     "CorrectedID": "832",
     "ComponentType": "Pfette",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 290.0,
-      "Width": 140.0
+      "Height": 150,
+      "Length": 290,
+      "Width": 140
     },
     "Connections": [
       {
@@ -18596,9 +18596,9 @@
     "CorrectedID": "947",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 117.0,
-      "Width": 105.0
+      "Height": 140,
+      "Length": 117,
+      "Width": 105
     },
     "Connections": [
       {
@@ -18630,9 +18630,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 280.0,
-      "Length": 217.0,
-      "Width": 75.0
+      "Height": 280,
+      "Length": 217,
+      "Width": 75
     },
     "Connections": [
       {
@@ -18672,9 +18672,9 @@
     "CorrectedID": "768",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 235.0,
-      "Length": 426.0,
-      "Width": 100.0
+      "Height": 235,
+      "Length": 426,
+      "Width": 100
     },
     "Connections": [
       {
@@ -18705,9 +18705,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 285.0,
-      "Length": 136.0,
-      "Width": 200.0
+      "Height": 285,
+      "Length": 136,
+      "Width": 200
     },
     "Connections": [
       {
@@ -18731,9 +18731,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 140.0,
-      "Length": 119.0,
-      "Width": 120.0
+      "Height": 140,
+      "Length": 119,
+      "Width": 120
     },
     "Connections": [
       {
@@ -18765,9 +18765,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 348.0,
-      "Width": 170.0
+      "Height": 185,
+      "Length": 348,
+      "Width": 170
     },
     "Connections": [
       {
@@ -18799,9 +18799,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 205.0,
-      "Width": 165.0
+      "Height": 180,
+      "Length": 205,
+      "Width": 165
     },
     "Connections": [
       {
@@ -18832,9 +18832,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 280.0,
+      "Height": 280,
       "Length": 397.5,
-      "Width": 75.0
+      "Width": 75
     },
     "Connections": [
       {
@@ -18858,9 +18858,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 333.0,
-      "Width": 155.0
+      "Height": 175,
+      "Length": 333,
+      "Width": 155
     },
     "Connections": [
       {
@@ -18892,9 +18892,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 155.0,
-      "Length": 183.0,
-      "Width": 150.0
+      "Height": 155,
+      "Length": 183,
+      "Width": 150
     },
     "Connections": [
       {
@@ -18918,9 +18918,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 147.5,
-      "Width": 145.0
+      "Width": 145
     },
     "Connections": [
       {
@@ -18944,9 +18944,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 203.0,
-      "Width": 170.0
+      "Height": 210,
+      "Length": 203,
+      "Width": 170
     },
     "Connections": [
       {
@@ -18978,9 +18978,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 48.0,
-      "Width": 130.0
+      "Height": 190,
+      "Length": 48,
+      "Width": 130
     },
     "Damages": [
       {
@@ -19000,9 +19000,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 327.0,
-      "Width": 100.0
+      "Height": 150,
+      "Length": 327,
+      "Width": 100
     },
     "Connections": [
       {
@@ -19026,9 +19026,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 275.0,
-      "Length": 398.0,
-      "Width": 75.0
+      "Height": 275,
+      "Length": 398,
+      "Width": 75
     },
     "Damages": [
       {
@@ -19056,9 +19056,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 416.0,
-      "Width": 80.0
+      "Height": 185,
+      "Length": 416,
+      "Width": 80
     },
     "Connections": [
       {
@@ -19088,9 +19088,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
-      "Length": 316.0,
-      "Width": 125.0
+      "Height": 135,
+      "Length": 316,
+      "Width": 125
     },
     "Connections": [
       {
@@ -19111,9 +19111,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
+      "Height": 210,
       "Length": 454.5,
-      "Width": 180.0
+      "Width": 180
     },
     "Connections": [
       {
@@ -19145,9 +19145,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 205.0,
-      "Length": 346.0,
-      "Width": 150.0
+      "Height": 205,
+      "Length": 346,
+      "Width": 150
     },
     "Connections": [
       {
@@ -19179,9 +19179,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 180.0,
-      "Length": 253.0,
-      "Width": 180.0
+      "Height": 180,
+      "Length": 253,
+      "Width": 180
     },
     "Connections": [
       {
@@ -19213,9 +19213,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 372.0,
-      "Width": 150.0
+      "Height": 160,
+      "Length": 372,
+      "Width": 150
     },
     "Connections": [
       {
@@ -19241,9 +19241,9 @@
     "CorrectedID": "1031",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 358.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 358,
+      "Width": 120
     },
     "Connections": [
       {
@@ -19269,9 +19269,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 187.0,
-      "Width": 160.0
+      "Height": 170,
+      "Length": 187,
+      "Width": 160
     },
     "Connections": [
       {
@@ -19303,9 +19303,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 135.0,
+      "Height": 135,
       "Length": 152.5,
-      "Width": 110.0
+      "Width": 110
     },
     "Connections": [
       {
@@ -19324,9 +19324,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 210.0,
-      "Length": 203.0,
-      "Width": 185.0
+      "Height": 210,
+      "Length": 203,
+      "Width": 185
     },
     "Connections": [
       {
@@ -19349,9 +19349,9 @@
     "CorrectedID": "105",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
+      "Height": 120,
       "Length": 302.5,
-      "Width": 115.0
+      "Width": 115
     },
     "Connections": [
       {
@@ -19377,9 +19377,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 152.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 152,
+      "Width": 150
     },
     "Connections": [
       {
@@ -19411,9 +19411,9 @@
     "ColorClass": "Red",
     "ComponentType": "Strebe",
     "Dimensions": {
-      "Height": 195.0,
-      "Length": 145.0,
-      "Width": 160.0
+      "Height": 195,
+      "Length": 145,
+      "Width": 160
     },
     "Damages": [
       {
@@ -19431,9 +19431,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
+      "Height": 145,
       "Length": 183.5,
-      "Width": 120.0
+      "Width": 120
     },
     "Connections": [
       {
@@ -19457,9 +19457,9 @@
     "ComponentType": "Pfosten",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 218.0,
-      "Width": 80.0
+      "Height": 255,
+      "Length": 218,
+      "Width": 80
     },
     "Connections": [
       {
@@ -19495,9 +19495,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 175.0,
-      "Length": 344.0,
-      "Width": 160.0
+      "Height": 175,
+      "Length": 344,
+      "Width": 160
     },
     "Connections": [
       {
@@ -19516,9 +19516,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 163.0,
-      "Width": 120.0
+      "Height": 150,
+      "Length": 163,
+      "Width": 120
     },
     "Connections": [
       {
@@ -19542,9 +19542,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 366.0,
-      "Width": 150.0
+      "Height": 170,
+      "Length": 366,
+      "Width": 150
     },
     "Connections": [
       {
@@ -19576,9 +19576,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 215.0,
-      "Length": 545.0,
-      "Width": 160.0
+      "Height": 215,
+      "Length": 545,
+      "Width": 160
     },
     "Connections": [
       {
@@ -19609,9 +19609,9 @@
     "CorrectedID": "781",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 230.0,
+      "Height": 230,
       "Length": 430.5,
-      "Width": 90.0
+      "Width": 90
     },
     "Connections": [
       {
@@ -19642,9 +19642,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 255.0,
-      "Length": 283.0,
-      "Width": 190.0
+      "Height": 255,
+      "Length": 283,
+      "Width": 190
     },
     "GlobalId": "2aU61E_A55tO6zua9AJY9x",
     "Photos": []
@@ -19656,9 +19656,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 329.0,
-      "Width": 150.0
+      "Height": 150,
+      "Length": 329,
+      "Width": 150
     },
     "Connections": [
       {
@@ -19682,9 +19682,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 110.0,
-      "Length": 130.0,
-      "Width": 100.0
+      "Height": 110,
+      "Length": 130,
+      "Width": 100
     },
     "Connections": [
       {
@@ -19721,9 +19721,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
+      "Height": 150,
       "Length": 328.5,
-      "Width": 130.0
+      "Width": 130
     },
     "Connections": [
       {
@@ -19755,9 +19755,9 @@
     "ComponentType": "Wechsel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 210.0,
+      "Height": 210,
       "Length": 234.5,
-      "Width": 175.0
+      "Width": 175
     },
     "Connections": [
       {
@@ -19789,9 +19789,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 190.0,
-      "Length": 253.0,
-      "Width": 175.0
+      "Height": 190,
+      "Length": 253,
+      "Width": 175
     },
     "Connections": [
       {
@@ -19822,9 +19822,9 @@
     "CorrectedID": "1079",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 12.0,
+      "Height": 12,
       "Length": 1.16,
-      "Width": 12.0
+      "Width": 12
     },
     "Connections": [
       {
@@ -19849,9 +19849,9 @@
     "CorrectedID": "147",
     "ComponentType": "Riegel",
     "Dimensions": {
-      "Height": 1200.0,
-      "Length": 50.0,
-      "Width": 120.0
+      "Height": 1200,
+      "Length": 50,
+      "Width": 120
     },
     "Damages": [
       {
@@ -19869,9 +19869,9 @@
     "CorrectedID": "911",
     "ComponentType": "Blue",
     "Dimensions": {
-      "Height": 120.0,
-      "Length": 148.0,
-      "Width": 120.0
+      "Height": 120,
+      "Length": 148,
+      "Width": 120
     },
     "Damages": [
       {
@@ -19891,9 +19891,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 342.0,
-      "Width": 170.0
+      "Height": 170,
+      "Length": 342,
+      "Width": 170
     },
     "Connections": [
       {
@@ -19929,9 +19929,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 215.0,
-      "Width": 125.0
+      "Height": 150,
+      "Length": 215,
+      "Width": 125
     },
     "GlobalId": "0Bh8i_bvzDw9JedGGLh_uI",
     "Photos": []
@@ -19943,9 +19943,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 145.0,
-      "Length": 140.0,
-      "Width": 125.0
+      "Height": 145,
+      "Length": 140,
+      "Width": 125
     },
     "Connections": [
       {
@@ -19977,9 +19977,9 @@
     "ComponentType": "Kopfband",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 170.0,
-      "Length": 287.0,
-      "Width": 130.0
+      "Height": 170,
+      "Length": 287,
+      "Width": 130
     },
     "Connections": [
       {
@@ -20001,9 +20001,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 250.0,
-      "Length": 760.0,
-      "Width": 220.0
+      "Height": 250,
+      "Length": 760,
+      "Width": 220
     },
     "GlobalId": "2dDfpUtIT3ovH_0HjmrUE9",
     "Level": "0",
@@ -20017,9 +20017,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 160.0,
-      "Length": 263.0,
-      "Width": 160.0
+      "Height": 160,
+      "Length": 263,
+      "Width": 160
     },
     "Connections": [
       {
@@ -20049,9 +20049,9 @@
     "ComponentType": "Binderbalken",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 265.0,
-      "Length": 933.0,
-      "Width": 240.0
+      "Height": 265,
+      "Length": 933,
+      "Width": 240
     },
     "Connections": [
       {
@@ -20079,9 +20079,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 165.0,
-      "Length": 167.0,
-      "Width": 160.0
+      "Height": 165,
+      "Length": 167,
+      "Width": 160
     },
     "Connections": [
       {
@@ -20118,9 +20118,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 185.0,
-      "Length": 353.0,
-      "Width": 150.0
+      "Height": 185,
+      "Length": 353,
+      "Width": 150
     },
     "Connections": [
       {
@@ -20152,9 +20152,9 @@
     "ComponentType": "Riegel",
     "ColorClass": "White",
     "Dimensions": {
-      "Height": 150.0,
-      "Length": 34.0,
-      "Width": 110.0
+      "Height": 150,
+      "Length": 34,
+      "Width": 110
     },
     "Connections": [
       {
@@ -20178,9 +20178,9 @@
     "ComponentType": "Pfette",
     "ColorClass": "Red",
     "Dimensions": {
-      "Height": 130.0,
-      "Length": 152.0,
-      "Width": 80.0
+      "Height": 130,
+      "Length": 152,
+      "Width": 80
     },
     "Connections": [
       {
@@ -20214,9 +20214,9 @@
     "ComponentType": "Strebe",
     "ColorClass": "Yellow",
     "Dimensions": {
-      "Height": 220.0,
-      "Length": 488.0,
-      "Width": 190.0
+      "Height": 220,
+      "Length": 488,
+      "Width": 190
     },
     "Connections": [
       {
