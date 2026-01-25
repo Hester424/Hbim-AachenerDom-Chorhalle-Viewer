@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "source": "Aachen Cathedral Chorhalle Documentation",
+    "date_range": {
+      "min": 1656,
+      "max": 2026
+    },
+    "total_events": 21
+  },
+  "events": [
+    {
+      "id": "EventGroup_06",
+      "label": "1656 Great City Fire Roof Damage",
+      "date": {
+        "start": 1656,
+        "end": 1656,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_06_Repair",
+          "label": "Post-1656 Roof Reconstruction",
+          "date": {
+            "start": 1656,
+            "end": 1656,
+            "type": "single"
+          },
+          "description": "The construction present today was therefore only built after 1656.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_02",
+      "label": "1916 Severe Vault Damage",
+      "date": {
+        "start": 1916,
+        "end": 1916,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_02_Repair",
+          "label": "Piriét Anchorage System Installation",
+          "date": {
+            "start": 1920,
+            "end": 1920,
+            "type": "single"
+          },
+          "description": "Therefore Piriét developed the concept for a tie rod guided above the vault, which is connected in a fan shape to the pillar heads of the choir polygon and which forks over the octagon dome to be anchored with the two western ends in the masonry of the octagon. In this way, the great weight of the octagon was to be activated as a counterweight against the eastward drift of the choir hall. Initially, official concerns were raised against the 'Piriét construction'.",
+          "components": [
+            "Chorhalle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_03",
+      "label": "1927 Truss Feet Repair",
+      "date": {
+        "start": 1927,
+        "end": 1927,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_03_Repair",
+          "label": "1927 Truss Feet Repair",
+          "date": {
+            "start": 1927,
+            "end": 1927,
+            "type": "single"
+          },
+          "description": "In 1927 the truss feet of the roof construction had to be repaired.",
+          "components": [
+            "Binderfuesse",
+            "Dachkonstruktion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_05",
+      "label": "WWII Damage to Pillar Heads",
+      "date": {
+        "start": 1939,
+        "end": 1945,
+        "type": "range"
+      },
+      "damages": [
+        {
+          "id": "Event_05_Damage",
+          "label": "WWII Damage to Pillar Heads",
+          "date": null,
+          "description": "He documented through his observation results that the pillar heads, in which the anchors of Piriét's construction are fastened, had lost their once monolithic structure due to the shocks of World War II, an essential prerequisite according to Piriét for the functionality of his construction.",
+          "components": [
+            "Pfeilerkoepfe",
+            "PirletVerankerung"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_14",
+      "label": "Ongoing Wood Salt Damage",
+      "date": {
+        "start": 1943,
+        "end": 2026,
+        "type": "ongoing"
+      },
+      "damages": [
+        {
+          "id": "Event_14_Damage",
+          "label": "Ongoing Wood Salt Damage",
+          "date": null,
+          "description": "However, attention must be paid to the fibrous coating on many beams that reappeared after it had already been brushed off once. It is considered by experts to be a result of treatment of the timbers with a liquid that was applied during World War II to prevent rapid ignition of the timbers by incendiary bombs (cf. report on main assembly of Karlsverein dated 2.5.1943, page 4). The liquid later decomposed and formed salts that attack the wood and dissolve the outermost layer of the beams.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_07",
+      "label": "Comprehensive Roof Truss Damage",
+      "date": {
+        "start": 1991,
+        "end": 1994,
+        "type": "range"
+      },
+      "damages": [
+        {
+          "id": "Event_07_Damage",
+          "label": "Comprehensive Roof Truss Damage",
+          "date": null,
+          "description": "Each beam was numbered during inventory, documented graphically, in list form and electronically (cf. Figs. 37-44). The same was done with the damage findings; accordingly it is to be feared that as a result of war impacts, rot or movements of the roof truss, but also due to installation of coniferous woods, approximately 23% of the beams need to be replaced. About 50% of the beams require repairs. They primarily concern the wood joints.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_08",
+      "label": "Insect Infestation of Roof Timbers",
+      "date": {
+        "start": 1991,
+        "end": 1994,
+        "type": "range"
+      },
+      "damages": [
+        {
+          "id": "Event_08_Damage",
+          "label": "Insect Infestation of Roof Timbers",
+          "date": null,
+          "description": "Since 90% of the beams showed wormholes, the companies DESOWAG and Weyl GmbH were independently asked for on-site inspections and consultations. It was found that the infestation by Anobium punctatum and Lictus lineatus is of older date and has essentially only affected the sapwood. The removal of the sapwood and a preventive treatment with wood preservatives at infested locations was recommended.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_09",
+      "label": "Rot Damage at Truss Support Points",
+      "date": {
+        "start": 1991,
+        "end": 1991,
+        "type": "single"
+      },
+      "damages": [
+        {
+          "id": "Event_09_Damage",
+          "label": "Rot Damage at Truss Support Points",
+          "date": null,
+          "description": "In addition to structural and moisture-induced damage below the ridge cross and ridge eagle, rot damage was found primarily at the support points of the roof trusses.",
+          "components": [
+            "Binderauflager"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_10",
+      "label": "Damaged Roof Covering Requiring Extensive Renewal",
+      "date": {
+        "start": 1991,
+        "end": 1991,
+        "type": "single"
+      },
+      "damages": [
+        {
+          "id": "Event_10_Damage",
+          "label": "Damaged Roof Covering Requiring Extensive Renewal",
+          "date": null,
+          "description": "The roof covering was so damaged as a result of natural aging, war events and provisional repairs that extensive renewal had to be considered. Among other things, a truss was missing under the west hip. In the east part of the roof, trusses had tilted due to movements of the building. Bracing against further tilting was necessary. The wind bracing had to be supplemented. Moisture damage and woodworm had partially destroyed truss supports. The underlying masonry was impaired in strength by fire impact.",
+          "components": [
+            "Dachstuhl",
+            "Mauerkrone"
+          ]
+        }
+      ],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_11",
+      "label": "Site Setup and Old Materials Demolition",
+      "date": {
+        "start": 1994,
+        "end": 1994,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_11_Repair",
+          "label": "Site Setup and Old Materials Demolition",
+          "date": {
+            "start": 1994,
+            "end": 1994,
+            "type": "single"
+          },
+          "description": "At the end of 1994, Firma Korr, which had the most favorable bid for the carpentry work, set up the construction site in the roof space of the choir hall. After completion of the enclosure and removal of the old slate covering by Firma Jakobs, the defective boarding and desolate rafter work were dismantled at the beginning of 1995.",
+          "components": [
+            "Dachstuhl",
+            "Schalung",
+            "Sparren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Additional Truss Under West Hip Due to Deformation",
+      "date": {
+        "start": 1995,
+        "end": 1995,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Beam Head Replacement with Support Structures",
+      "date": {
+        "start": 1995,
+        "end": 1995,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_12B_Repair",
+          "label": "Beam Head Replacement with Support Structures",
+          "date": {
+            "start": 1995,
+            "end": 1995,
+            "type": "single"
+          },
+          "description": "Some of the beam heads had to be removed by connecting new head pieces to the beam through standing scarf joints. Support structures had to be erected in the vault basins to temporarily support the loads of the roof structure.",
+          "components": [
+            "Binderfuesse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Rapid Installation of New Rafters and Boarding",
+      "date": {
+        "start": 1995,
+        "end": 1995,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_12C_Repair",
+          "label": "Rapid Installation of New Rafters and Boarding",
+          "date": {
+            "start": 1995,
+            "end": 1995,
+            "type": "single"
+          },
+          "description": "The work progressed so rapidly that new rafters could be laid from March 1995, and the boarding was done a month later.",
+          "components": [
+            "Sparren",
+            "Schalung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Eastern Half Sapwood Removal and Joint Repair",
+      "date": {
+        "start": 1995,
+        "end": 1995,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_12D_Repair",
+          "label": "Eastern Half Sapwood Removal and Joint Repair",
+          "date": {
+            "start": 1995,
+            "end": 1995,
+            "type": "single"
+          },
+          "description": "The carpenters began freeing the beams from sapwood and carrying out repairs on the wood joints in the eastern half.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_15",
+      "label": "Steel Staircase Installation",
+      "date": {
+        "start": 1995,
+        "end": 1995,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Boarding and Rafter Work Removal",
+      "date": {
+        "start": 1996,
+        "end": 1996,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_12",
+      "label": "Eastern Truss Stabilization and Fixation",
+      "date": {
+        "start": 1996,
+        "end": 1996,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_12F_Repair",
+          "label": "Eastern Truss Stabilization and Fixation",
+          "date": {
+            "start": 1996,
+            "end": 1996,
+            "type": "single"
+          },
+          "description": "To prevent further tilting, the eastern transverse truss (Y-l) in level 1 received horizontal struts from laminated timber beams. All trusses were fixed with galvanized steel profiles in recesses of the load distribution beam on the crown wall.",
+          "components": [
+            "Binder",
+            "Mauerkrone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_13",
+      "label": "1996 Expert Insect Inspection",
+      "date": {
+        "start": 1996,
+        "end": 1996,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_13_Repair",
+          "label": "Treatment of One Infested Location",
+          "date": {
+            "start": 1996,
+            "end": 1996,
+            "type": "single"
+          },
+          "description": "The mentioned location was treated with protective agents.",
+          "components": [
+            "Dachstuhl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EventGroup_16",
+      "label": "1996 Roof Construction Work Completion",
+      "date": {
+        "start": 1996,
+        "end": 1996,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": []
+    },
+    {
+      "id": "EventGroup_01",
+      "label": "1997 Comprehensive Restoration",
+      "date": {
+        "start": 1997,
+        "end": 1997,
+        "type": "single"
+      },
+      "damages": [],
+      "repairs": [
+        {
+          "id": "Event_01_Repair",
+          "label": "1997 Comprehensive Restoration",
+          "date": {
+            "start": 1997,
+            "end": 1997,
+            "type": "single"
+          },
+          "description": "This year the choir hall will be comprehensively restored. The pillars will be repaired, the windows reframed and adjusted, so that in light, color and form the transcendent, supersensory reality can be perceived",
+          "components": [
+            "Chorhalle",
+            "Pfeiler",
+            "Fenster"
+          ]
+        }
+      ]
+    }
+  ]
+}

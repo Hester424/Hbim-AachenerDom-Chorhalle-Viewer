@@ -691,7 +691,8 @@ async function init() {
         await loadSemanticData();
         populateFilters(); // Populate query panel dropdowns
         await loadIFCModel();
-        
+        await loadTimeline(); // Load historical timeline
+
         updateProgress(100, 'Loading complete!');
         
         setTimeout(() => {
@@ -711,6 +712,118 @@ function animate() {
     requestAnimationFrame(animate);
     controls.update();
     renderer.render(scene, camera);
+}
+
+// Timeline Functions
+window.toggleTimeline = function() {
+    const panel = document.getElementById('timeline-panel');
+    panel.classList.toggle('collapsed');
+};
+
+async function loadTimeline() {
+    try {
+        const response = await fetch('./timeline_data.json');
+        const data = await response.json();
+
+        const timelineScroll = document.getElementById('timeline-scroll');
+        const dateRange = document.getElementById('timeline-date-range');
+
+        // Update date range in header
+        if (data.metadata && data.metadata.date_range) {
+            dateRange.textContent = `${data.metadata.date_range.min} - ${data.metadata.date_range.max}`;
+        }
+
+        // Sort events by date
+        const sortedEvents = [...data.events].sort((a, b) => {
+            const dateA = a.date.start || a.date.end || 0;
+            const dateB = b.date.start || b.date.end || 0;
+            return dateA - dateB;
+        });
+
+        // Create timeline track
+        const track = document.createElement('div');
+        track.className = 'timeline-track';
+
+        // Render each event
+        sortedEvents.forEach(event => {
+            const eventCard = document.createElement('div');
+
+            // Determine event type
+            const hasDamages = event.damages && event.damages.length > 0;
+            const hasRepairs = event.repairs && event.repairs.length > 0;
+            let eventType = 'repair-event';
+            let badgeType = 'repair';
+            let badgeText = 'REPAIR';
+
+            if (hasDamages && hasRepairs) {
+                eventType = 'mixed-event';
+                badgeType = 'mixed';
+                badgeText = 'DAMAGE & REPAIR';
+            } else if (hasDamages) {
+                eventType = 'damage-event';
+                badgeType = 'damage';
+                badgeText = 'DAMAGE';
+            }
+
+            eventCard.className = `timeline-event ${eventType}`;
+
+            // Format date display
+            let dateDisplay = '';
+            if (event.date.type === 'range') {
+                dateDisplay = `${event.date.start}-${event.date.end}`;
+            } else if (event.date.type === 'ongoing') {
+                dateDisplay = `${event.date.start}+`;
+            } else {
+                dateDisplay = event.date.start || event.date.end || 'Unknown';
+            }
+
+            // Collect all components, descriptions
+            const allComponents = new Set();
+            let mainDescription = '';
+
+            [...(event.damages || []), ...(event.repairs || [])].forEach(item => {
+                if (item.description && !mainDescription) {
+                    mainDescription = item.description;
+                }
+                if (item.components) {
+                    item.components.forEach(comp => allComponents.add(comp));
+                }
+            });
+
+            // Build event card HTML
+            let html = `
+                <div class="event-date">${dateDisplay}</div>
+                <div class="event-type-badge ${badgeType}">${badgeText}</div>
+                <div class="event-label">${event.label}</div>
+            `;
+
+            if (allComponents.size > 0) {
+                html += '<div class="event-components">';
+                allComponents.forEach(comp => {
+                    html += `<span class="component-tag">${comp}</span>`;
+                });
+                html += '</div>';
+            }
+
+            if (mainDescription) {
+                html += `<div class="event-description">${mainDescription}</div>`;
+            }
+
+            eventCard.innerHTML = html;
+            track.appendChild(eventCard);
+        });
+
+        timelineScroll.innerHTML = '';
+        timelineScroll.appendChild(track);
+
+        // Start collapsed
+        document.getElementById('timeline-panel').classList.add('collapsed');
+
+        console.log('✅ Timeline loaded:', data.metadata.total_events, 'events');
+
+    } catch (error) {
+        console.error('❌ Error loading timeline:', error);
+    }
 }
 
 // Responsive
