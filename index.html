@@ -5,523 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBIM Semantic Viewer - Aachen Cathedral Chorhalle</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #3498db;
-            --secondary: #2ecc71;
-            --bg-dark: rgba(15, 23, 42, 0.94);
-            --bg-darker: rgba(10, 15, 30, 0.96);
-            --text-main: #f8fafc;
-            --text-dim: #94a3b8;
-            --text-dimmer: #64748b;
-            --border: rgba(255, 255, 255, 0.08);
-            --shadow: 0 10px 40px rgba(0,0,0,0.6);
-            --accent: #667eea;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body { 
-            overflow: hidden; 
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            font-family: 'Inter', system-ui, sans-serif; 
-            color: var(--text-main);
-        }
-
-        #loading {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            transition: opacity 0.6s ease;
-        }
-
-        .loader-title {
-            color: var(--text-main);
-            font-size: 1.5rem;
-            margin-bottom: 8px;
-            letter-spacing: 2px;
-            font-weight: 300;
-        }
-
-        .loader-subtitle {
-            color: var(--text-dimmer);
-            font-size: 0.85rem;
-            margin-bottom: 40px;
-            letter-spacing: 0.5px;
-        }
-
-        #progress-bar {
-            width: 380px;
-            height: 4px;
-            background: rgba(51, 65, 85, 0.4);
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        #progress-fill {
-            width: 0%;
-            height: 100%;
-            background: var(--accent);
-            transition: width 0.4s ease;
-        }
-
-        #progress-text {
-            color: var(--text-dimmer);
-            margin-top: 12px;
-            font-size: 0.8rem;
-        }
-
-        #info {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 420px;
-            max-height: 88vh;
-            overflow-y: auto;
-            background: var(--bg-dark);
-            backdrop-filter: blur(20px);
-            border: 1px solid var(--border);
-            padding: 0;
-            border-radius: 16px;
-            box-shadow: var(--shadow);
-            z-index: 100;
-        }
-
-        .panel-header {
-            position: sticky;
-            top: 0;
-            background: var(--bg-darker);
-            backdrop-filter: blur(24px);
-            padding: 20px 24px;
-            border-bottom: 1px solid var(--border);
-            border-radius: 16px 16px 0 0;
-            z-index: 10;
-        }
-
-        .panel-title {
-            font-size: 1.1rem;
-            margin-bottom: 6px;
-            font-weight: 500;
-            letter-spacing: 0.3px;
-        }
-
-        .panel-subtitle {
-            color: var(--text-dim);
-            font-size: 0.75rem;
-            letter-spacing: 0.3px;
-        }
-
-        .data-source-badge {
-            display: inline-block;
-            margin-left: 8px;
-            padding: 3px 8px;
-            background: var(--accent);
-            color: white;
-            font-size: 0.65rem;
-            font-weight: 600;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .panel-content {
-            padding: 24px;
-        }
-
-        .prop-group {
-            margin-bottom: 28px;
-            padding-bottom: 24px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .prop-group:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-
-        .prop-group-title {
-            color: var(--text-dim);
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin-bottom: 16px;
-        }
-
-        .prop-item {
-            margin-bottom: 18px;
-        }
-
-        .prop-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .prop-label { 
-            color: var(--text-dim);
-            font-size: 0.72rem; 
-            text-transform: uppercase; 
-            display: block; 
-            margin-bottom: 6px;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-        }
-        
-        .prop-value { 
-            color: var(--text-main);
-            font-family: 'JetBrains Mono', monospace; 
-            word-break: break-all; 
-            line-height: 1.5;
-            font-size: 0.88rem;
-        }
-
-        .prop-value.highlight {
-            color: var(--secondary);
-            font-weight: 500;
-        }
-
-        .id-display {
-            background: rgba(52, 152, 219, 0.08);
-            border: 1px solid rgba(52, 152, 219, 0.25);
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.82rem;
-            color: #5dade2;
-        }
-
-        /* Photos Section */
-        #photos-content {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .photo-link {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 12px;
-            background: rgba(102, 126, 234, 0.08);
-            border: 1px solid rgba(102, 126, 234, 0.25);
-            border-radius: 6px;
-            color: var(--text-main);
-            text-decoration: none;
-            font-size: 0.82rem;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-
-        .photo-link:hover {
-            background: rgba(102, 126, 234, 0.15);
-            border-color: rgba(102, 126, 234, 0.4);
-            transform: translateX(2px);
-        }
-
-        .photo-link-text {
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        .photo-link-icon {
-            color: var(--accent);
-            font-size: 0.9rem;
-        }
-
-        /* Image Modal */
-        #imageModal {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.92);
-            z-index: 2000;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-
-        #imageModal.active {
-            display: flex;
-        }
-
-        #modalImage {
-            max-width: 90vw;
-            max-height: 90vh;
-            object-fit: contain;
-            border-radius: 8px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.9);
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            color: white;
-            font-size: 2rem;
-            font-weight: 300;
-            cursor: pointer;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            transition: background 0.3s;
-        }
-
-        .modal-close:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        #info::-webkit-scrollbar { width: 6px; }
-        #info::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); }
-        #info::-webkit-scrollbar-thumb { 
-            background: rgba(255, 255, 255, 0.12); 
-            border-radius: 3px; 
-        }
-
-        #controls-help {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--bg-dark);
-            backdrop-filter: blur(16px);
-            padding: 12px 24px;
-            border-radius: 20px;
-            color: var(--text-dim);
-            font-size: 0.8rem;
-            border: 1px solid var(--border);
-            box-shadow: var(--shadow);
-            display: flex;
-            gap: 16px;
-        }
-
-        .control-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .key-badge {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 3px 7px;
-            border-radius: 4px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            border: 1px solid rgba(255, 255, 255, 0.15);
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 20px 16px;
-            color: var(--text-dimmer);
-            font-size: 0.82rem;
-        }
-
-        /* Query Panel */
-        #query-panel {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 380px;
-            max-height: 88vh;
-            overflow-y: auto;
-            background: var(--bg-dark);
-            backdrop-filter: blur(20px);
-            border: 1px solid var(--border);
-            padding: 0;
-            border-radius: 16px;
-            box-shadow: var(--shadow);
-            z-index: 100;
-        }
-
-        .query-section {
-            padding: 20px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .query-section:last-child {
-            border-bottom: none;
-        }
-
-        .query-title {
-            color: var(--text-dim);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin-bottom: 14px;
-        }
-
-        .query-input {
-            width: 100%;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 12px;
-            color: var(--text-main);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            transition: all 0.2s ease;
-        }
-
-        .query-input:focus {
-            outline: none;
-            border-color: var(--accent);
-            background: rgba(255, 255, 255, 0.08);
-        }
-
-        .query-input::placeholder {
-            color: var(--text-dimmer);
-        }
-
-        .filter-group {
-            margin-bottom: 18px;
-        }
-
-        .filter-group:last-child {
-            margin-bottom: 0;
-        }
-
-        .filter-label {
-            color: var(--text-dim);
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-        }
-
-        .filter-select {
-            width: 100%;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px 12px;
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .filter-select:focus {
-            outline: none;
-            border-color: var(--accent);
-            background: rgba(255, 255, 255, 0.08);
-        }
-
-        .filter-select option {
-            background: #1e293b;
-            color: var(--text-main);
-        }
-
-        .query-button {
-            width: 100%;
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .query-button:hover {
-            background: #7c8ef0;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-        }
-
-        .query-button:active {
-            transform: translateY(0);
-        }
-
-        .clear-button {
-            background: rgba(255, 255, 255, 0.08);
-            margin-top: 10px;
-        }
-
-        .clear-button:hover {
-            background: rgba(255, 255, 255, 0.12);
-        }
-
-        #results-list {
-            max-height: 300px;
-            overflow-y: auto;
-        }
-
-        .result-item {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 12px;
-            margin-bottom: 10px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .result-item:hover {
-            background: rgba(102, 126, 234, 0.15);
-            border-color: var(--accent);
-            transform: translateX(4px);
-        }
-
-        .result-item-id {
-            color: var(--accent);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .result-item-details {
-            color: var(--text-dim);
-            font-size: 0.75rem;
-            display: flex;
-            gap: 12px;
-        }
-
-        .stats-box {
-            background: rgba(102, 126, 234, 0.12);
-            border: 1px solid rgba(102, 126, 234, 0.3);
-            border-radius: 8px;
-            padding: 14px;
-            margin-top: 12px;
-            text-align: center;
-        }
-
-        .stats-number {
-            color: var(--accent);
-            font-size: 2rem;
-            font-weight: 700;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        .stats-label {
-            color: var(--text-dim);
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-top: 4px;
-        }
-
-        .hidden { opacity: 0; pointer-events: none; }
-    </style>
-  <script type="module" crossorigin src="/Hbim-AachenerDom-Chorhalle-Viewer/assets/index-SpfuS5yD.js"></script>
+  <script type="module" crossorigin src="/Hbim-AachenerDom-Chorhalle-Viewer/assets/index-DNfjtd2e.js"></script>
   <link rel="modulepreload" crossorigin href="/Hbim-AachenerDom-Chorhalle-Viewer/assets/three-D2rJ0xW_.js">
   <link rel="modulepreload" crossorigin href="/Hbim-AachenerDom-Chorhalle-Viewer/assets/ifc-CbxaJHVu.js">
+  <link rel="stylesheet" crossorigin href="/Hbim-AachenerDom-Chorhalle-Viewer/assets/index-AlXofnTX.css">
 </head>
 <body>
     <div id="loading">
@@ -535,7 +22,7 @@
         <div class="panel-header">
             <div class="panel-title">
                 Component Information
-                <span class="data-source-badge">RDF/TTL Data</span>
+                <!-- <span class="data-source-badge">RDF/TTL Data</span> -->
             </div>
             <p class="panel-subtitle">Heritage Documentation | Siebigs 1997</p>
         </div>
@@ -582,15 +69,21 @@
     </div>
 
     <div id="query-panel">
-        <div class="panel-header">
-            <div class="panel-title">
-                Query Components
-                <span class="data-source-badge">Filter & Search</span>
+        <div class="panel-header" onclick="toggleQueryPanel()">
+            <div class="panel-header-content">
+                <div>
+                    <div class="panel-title">
+                        Query Components
+                        <!-- <span class="data-source-badge">Filter & Search</span> -->
+                    </div>
+                    <p class="panel-subtitle">Find components by attributes</p>
+                </div>
+                <div class="panel-toggle-icon" id="query-toggle-icon">▼</div>
             </div>
-            <p class="panel-subtitle">Find components by attributes</p>
         </div>
 
-        <div class="query-section">
+        <div class="query-content" id="query-content">
+            <div class="query-section">
             <div class="query-title">Search by ID</div>
             <input type="text" id="search-id" class="query-input" placeholder="Enter CorrectedID (e.g., 514)" onkeypress="if(event.key==='Enter') searchByID()">
             <button class="query-button" onclick="searchByID()">Search</button>
@@ -639,6 +132,7 @@
             </div>
             <div id="results-list" style="margin-top: 16px;"></div>
         </div>
+        </div>
     </div>
 
     <div id="imageModal">
@@ -651,6 +145,19 @@
         <div class="control-item"><span class="key-badge">Right Click</span> Pan</div>
         <div class="control-item"><span class="key-badge">Scroll</span> Zoom</div>
         <div class="control-item"><span class="key-badge">Double Click</span> Select</div>
+    </div>
+
+    <div id="timeline-panel">
+        <div class="timeline-header" onclick="toggleTimeline()">
+            <div class="timeline-header-content">
+                <div class="timeline-title">Historical Timeline</div>
+                <!-- <div class="timeline-date-range" id="timeline-date-range">1656 - 2026</div> -->
+            </div>
+            <div class="timeline-toggle-icon" id="timeline-toggle-icon">▲</div>
+        </div>
+        <div class="timeline-content" id="timeline-content">
+            <div class="timeline-scroll-container" id="timeline-scroll"></div>
+        </div>
     </div>
 
 </body>
