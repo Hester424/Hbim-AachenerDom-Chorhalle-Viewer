@@ -637,23 +637,26 @@ window.highlightComponentByGlobalId = async function(globalId) {
                         displayComponentInfo(globalId, expressID, component);
                     }
 
-                    // Focus camera on component
+                    // Camera auto-focus disabled to keep model position stable
+                    // Uncomment below to enable auto-focus on selected components
+                    /*
                     const subset = ifcLoader.ifcManager.getSubset(modelID, highlightMaterial);
                     if (subset) {
                         const box = new THREE.Box3().setFromObject(subset);
                         const center = box.getCenter(new THREE.Vector3());
                         const size = box.getSize(new THREE.Vector3());
-                        
+
                         const maxDim = Math.max(size.x, size.y, size.z);
                         const fov = camera.fov * (Math.PI / 180);
                         let cameraZ = Math.abs(maxDim / 2 / Math.tan(fov / 2));
                         cameraZ *= 2.5;
-                        
+
                         camera.position.set(center.x + cameraZ, center.y + cameraZ, center.z + cameraZ);
                         camera.lookAt(center);
                         controls.target.copy(center);
                         controls.update();
                     }
+                    */
 
                     console.log('✅ Highlighted component:', globalId);
                     break;
