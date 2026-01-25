@@ -20,6 +20,30 @@ body {
     color: var(--text-main);
 }
 
+/* Global dark scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(100, 116, 139, 0.5);
+    border-radius: 5px;
+    border: 2px solid rgba(15, 23, 42, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.6);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(15, 23, 42, 0.4);
+}
+
 #loading {
     position: absolute;
     inset: 0;
@@ -279,7 +303,7 @@ body {
 
 #controls-help {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     background: var(--bg-dark);
@@ -318,19 +342,63 @@ body {
 
 /* Query Panel */
 #query-panel {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     width: 380px;
-    max-height: 88vh;
-    overflow-y: auto;
+    max-height: calc(100vh - 140px);
     background: var(--bg-dark);
     backdrop-filter: blur(20px);
     border: 1px solid var(--border);
-    padding: 0;
     border-radius: 16px;
     box-shadow: var(--shadow);
-    z-index: 100;
+    z-index: 150;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#query-panel.collapsed {
+    max-height: 80px;
+    overflow: hidden;
+}
+
+#query-panel .panel-header {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s ease;
+    padding: 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+#query-panel.collapsed .panel-header {
+    border-bottom: none;
+}
+
+#query-panel .panel-header:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.panel-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.panel-toggle-icon {
+    font-size: 1.2rem;
+    color: var(--accent);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+#query-panel.collapsed .panel-toggle-icon {
+    transform: rotate(180deg);
+}
+
+.query-content {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .query-section {
@@ -587,11 +655,21 @@ body {
     overflow-y: hidden;
 }
 
-.timeline-scroll-container::-webkit-scrollbar { height: 8px; }
-.timeline-scroll-container::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); }
+.timeline-scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.6);
+}
+
 .timeline-scroll-container::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(102, 126, 234, 0.4);
     border-radius: 4px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(102, 126, 234, 0.6);
 }
 
 .timeline-track {

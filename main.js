@@ -693,6 +693,9 @@ async function init() {
         await loadIFCModel();
         await loadTimeline(); // Load historical timeline
 
+        // Start with collapsed panels
+        document.getElementById('query-panel').classList.add('collapsed');
+
         updateProgress(100, 'Loading complete!');
         
         setTimeout(() => {
@@ -720,6 +723,12 @@ window.toggleTimeline = function() {
     panel.classList.toggle('collapsed');
 };
 
+// Query Panel Toggle
+window.toggleQueryPanel = function() {
+    const panel = document.getElementById('query-panel');
+    panel.classList.toggle('collapsed');
+};
+
 async function loadTimeline() {
     try {
         const response = await fetch('./timeline_data.json');
@@ -728,8 +737,8 @@ async function loadTimeline() {
         const timelineScroll = document.getElementById('timeline-scroll');
         const dateRange = document.getElementById('timeline-date-range');
 
-        // Update date range in header
-        if (data.metadata && data.metadata.date_range) {
+        // Update date range in header (if element exists)
+        if (dateRange && data.metadata && data.metadata.date_range) {
             dateRange.textContent = `${data.metadata.date_range.min} - ${data.metadata.date_range.max}`;
         }
 

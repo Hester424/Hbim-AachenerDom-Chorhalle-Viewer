@@ -66,15 +66,21 @@
     </div>
 
     <div id="query-panel">
-        <div class="panel-header">
-            <div class="panel-title">
-                Query Components
-                <span class="data-source-badge">Filter & Search</span>
+        <div class="panel-header" onclick="toggleQueryPanel()">
+            <div class="panel-header-content">
+                <div>
+                    <div class="panel-title">
+                        Query Components
+                        <!-- <span class="data-source-badge">Filter & Search</span> -->
+                    </div>
+                    <p class="panel-subtitle">Find components by attributes</p>
+                </div>
+                <div class="panel-toggle-icon" id="query-toggle-icon">▼</div>
             </div>
-            <p class="panel-subtitle">Find components by attributes</p>
         </div>
 
-        <div class="query-section">
+        <div class="query-content" id="query-content">
+            <div class="query-section">
             <div class="query-title">Search by ID</div>
             <input type="text" id="search-id" class="query-input" placeholder="Enter CorrectedID (e.g., 514)" onkeypress="if(event.key==='Enter') searchByID()">
             <button class="query-button" onclick="searchByID()">Search</button>
@@ -122,6 +128,7 @@
                 <div class="stats-label">Components Found</div>
             </div>
             <div id="results-list" style="margin-top: 16px;"></div>
+        </div>
         </div>
     </div>
 
