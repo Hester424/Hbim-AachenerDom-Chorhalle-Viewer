@@ -30,6 +30,8 @@ controls.dampingFactor = 0.05;
 let ifcModel = null;
 let semanticData = {};
 let selectedExpressID = null;
+let noSemanticIDs = []; // Store IDs of components without semantic data
+let semanticIDs = []; // Store IDs of components with semantic data
 
 const ifcLoader = new IFCLoader();
 ifcLoader.ifcManager.setWasmPath('./');
@@ -38,6 +40,22 @@ const highlightMaterial = new THREE.MeshLambertMaterial({
     color: 0x00aaff,
     transparent: true,
     opacity: 0.7,
+    depthTest: true
+});
+
+// Material for IFC components without semantic data (semi-transparent)
+const noSemanticMaterial = new THREE.MeshLambertMaterial({
+    color: 0x888888,
+    transparent: true,
+    opacity: 0.85,
+    depthTest: true
+});
+
+// Material for IFC components with semantic data (normal appearance)
+const semanticMaterial = new THREE.MeshLambertMaterial({
+    color: 0xcccccc,
+    transparent: false,
+    opacity: 1.0,
     depthTest: true
 });
 
@@ -195,29 +213,29 @@ async function loadSemanticData() {
 async function loadIFCModel() {
     return new Promise((resolve, reject) => {
         updateProgress(40, 'Loading IFC model...');
-        
+
         ifcLoader.load(
             './model.ifc',
             (model) => {
                 ifcModel = model;
                 scene.add(ifcModel);
-                
+
                 // Auto-fit camera
                 const box = new THREE.Box3().setFromObject(ifcModel);
                 const center = box.getCenter(new THREE.Vector3());
                 const size = box.getSize(new THREE.Vector3());
-                
+
                 controls.target.copy(center);
-                
+
                 const maxDim = Math.max(size.x, size.y, size.z);
                 const fov = camera.fov * (Math.PI / 180);
                 let cameraZ = Math.abs(maxDim / 2 / Math.tan(fov / 2));
                 cameraZ *= 1.5;
-                
+
                 camera.position.set(center.x + cameraZ, center.y + cameraZ, center.z + cameraZ);
                 camera.lookAt(center);
                 controls.update();
-                
+
                 console.log('✅ IFC model loaded');
                 updateProgress(80, 'Model loaded');
                 resolve(model);
@@ -232,6 +250,102 @@ async function loadIFCModel() {
             }
         );
     });
+}
+
+// Apply transparent material to IFC components without semantic data
+async function applyNoSemanticMaterial() {
+    if (!ifcModel || Object.keys(semanticData).length === 0) {
+        console.warn('⚠️ Cannot apply no-semantic material: model or semantic data not ready');
+        return;
+    }
+
+    updateProgress(85, 'Processing components...');
+
+    try {
+        const modelID = 0;
+        const idsWithSemantic = [];
+        const idsWithoutSemantic = [];
+
+        // Get spatial structure to find all element IDs
+        const spatialStructure = await ifcLoader.ifcManager.getSpatialStructure(modelID);
+
+        // Recursive function to collect all ExpressIDs
+        function collectIDs(element) {
+            const ids = [];
+            if (element.expressID !== undefined) {
+                ids.push(element.expressID);
+            }
+            if (element.children) {
+                element.children.forEach(child => {
+                    ids.push(...collectIDs(child));
+                });
+            }
+            return ids;
+        }
+
+        const allIDs = collectIDs(spatialStructure);
+        console.log(`📊 Found ${allIDs.length} elements in spatial structure`);
+
+        // Check each element for semantic data
+        for (const expressID of allIDs) {
+            try {
+                const props = await ifcLoader.ifcManager.getItemProperties(modelID, expressID);
+                const globalId = props?.GlobalId?.value;
+
+                // Categorize by whether it has semantic data
+                if (globalId && semanticData[globalId]) {
+                    idsWithSemantic.push(expressID);
+                } else {
+                    idsWithoutSemantic.push(expressID);
+                }
+            } catch (error) {
+                // Skip elements that can't be accessed
+                continue;
+            }
+        }
+
+        console.log(`📊 Found ${idsWithSemantic.length} components WITH semantic data`);
+        console.log(`📊 Found ${idsWithoutSemantic.length} components WITHOUT semantic data`);
+
+        // Store globally for later use
+        semanticIDs = idsWithSemantic;
+        noSemanticIDs = idsWithoutSemantic;
+
+        // Hide original model
+        ifcModel.visible = false;
+
+        // Create subsets for both types
+        showSemanticSubsets();
+
+        updateProgress(95, 'Components processed');
+
+    } catch (error) {
+        console.error('❌ Error applying no-semantic material:', error);
+    }
+}
+
+// Show both semantic subsets (opaque for semantic, transparent for non-semantic)
+function showSemanticSubsets() {
+    // Show components WITH semantic data (normal opaque material)
+    if (semanticIDs.length > 0) {
+        ifcLoader.ifcManager.createSubset({
+            modelID: 0,
+            ids: semanticIDs,
+            scene: scene,
+            removePrevious: true,
+            material: semanticMaterial
+        });
+    }
+    // Show components WITHOUT semantic data (transparent material)
+    if (noSemanticIDs.length > 0) {
+        ifcLoader.ifcManager.createSubset({
+            modelID: 0,
+            ids: noSemanticIDs,
+            scene: scene,
+            removePrevious: true,
+            material: noSemanticMaterial
+        });
+    }
 }
 
 // Display component info
@@ -313,48 +427,51 @@ window.addEventListener('dblclick', async (event) => {
         const expressID = ifcLoader.ifcManager.getExpressId(ifcModel.geometry, index);
         
         if (expressID === selectedExpressID) {
-            // Deselect
+            // Deselect - remove highlight
             ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
             selectedExpressID = null;
             clearUI();
             return;
         }
-        
+
         selectedExpressID = expressID;
 
-        // Remove old highlight
+        // Remove old highlight (keep non-semantic subset visible)
         ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
 
-        // Create new highlight
-        ifcLoader.ifcManager.createSubset({
-            modelID: 0,
-            ids: [expressID],
-            scene: scene,
-            removePrevious: true,
-            material: highlightMaterial
-        });
-
         try {
-            // Get IFC properties
+            // Get IFC properties first to determine which material to use
             const props = await ifcLoader.ifcManager.getItemProperties(0, expressID);
             const globalId = props.GlobalId?.value;
 
+            // Check if semantic data exists for this component
+            const hasSemanticData = globalId && semanticData[globalId];
+
+            // Create highlight (always use blue highlight material when clicking)
+            ifcLoader.ifcManager.createSubset({
+                modelID: 0,
+                ids: [expressID],
+                scene: scene,
+                removePrevious: true,
+                material: highlightMaterial
+            });
+
             // Try to find semantic data
-            if (globalId && semanticData[globalId]) {
+            if (hasSemanticData) {
                 // Found semantic data
                 const component = semanticData[globalId];
                 displayComponentInfo(globalId, expressID, component);
-                
+
             } else {
-                // No semantic data, show IFC info only
-                console.warn('⚠️ No semantic data for GlobalID:', globalId);
-                
+                // No semantic data - show all fields as N/A
+                console.warn('⚠️ No semantic data for GlobalID:', globalId, '(IFC ExpressID:', expressID, ')');
+
                 document.getElementById('gid').innerHTML = globalId || 'N/A';
-                document.getElementById('eid').textContent = expressID;
+                document.getElementById('eid').textContent = 'N/A';
                 document.getElementById('level').textContent = 'N/A';
                 document.getElementById('side').textContent = 'N/A';
                 document.getElementById('photos-content').innerHTML = '<div class="empty-state">No photos available</div>';
-                document.getElementById('damage-content').innerHTML = '<div class="empty-state">No semantic data available</div>';
+                document.getElementById('damage-content').innerHTML = '<div class="empty-state">No semantic data available for this IFC component</div>';
             }
             
         } catch (error) {
@@ -363,7 +480,7 @@ window.addEventListener('dblclick', async (event) => {
         }
         
     } else {
-        // Clicked empty space
+        // Clicked empty space - remove highlight
         ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
         selectedExpressID = null;
         clearUI();
@@ -618,11 +735,11 @@ window.highlightComponentByGlobalId = async function(globalId) {
                     found = true;
                     
                     console.log('✅ Found component with ExpressID:', expressID);
-                    
+
                     // Remove old highlight
                     ifcLoader.ifcManager.removeSubset(modelID, highlightMaterial);
-                    
-                    // Create new highlight
+
+                    // Create new highlight (query results always have semantic data)
                     ifcLoader.ifcManager.createSubset({
                         modelID: modelID,
                         ids: [expressID],
@@ -691,6 +808,7 @@ async function init() {
         await loadSemanticData();
         populateFilters(); // Populate query panel dropdowns
         await loadIFCModel();
+        await applyNoSemanticMaterial(); // Apply transparent material to components without semantic data
         await loadTimeline(); // Load historical timeline
 
         // Start with collapsed panels
