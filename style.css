@@ -710,12 +710,65 @@ body {
     border-left: 3px solid #f39c12;
 }
 
+.event-date-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
 .event-date {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--accent);
-    margin-bottom: 8px;
+}
+
+.showcomp-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    background: rgba(255, 170, 0, 0.2);
+    color: #ffaa00;
+    border: 1px solid rgba(255, 170, 0, 0.4);
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.showcomp-badge:hover {
+    background: rgba(255, 170, 0, 0.35);
+    border-color: rgba(255, 170, 0, 0.6);
+}
+
+.timeline-event.has-linked-components {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-event.has-linked-components:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(255, 170, 0, 0.15);
+}
+
+.timeline-event.has-linked-components.active {
+    border-left-color: #ffaa00;
+    background: rgba(255, 170, 0, 0.08);
+    box-shadow: 0 4px 16px rgba(255, 170, 0, 0.2);
+}
+
+.timeline-event.has-linked-components.active .showcomp-badge {
+    background: rgba(255, 170, 0, 0.5);
+    color: #fff;
+}
+
+.component-tag.linked-count {
+    background: rgba(255, 170, 0, 0.15);
+    border-color: rgba(255, 170, 0, 0.3);
+    color: #ffaa00;
 }
 
 .event-label {

@@ -8,9 +8,9 @@ import json
 import os
 from pathlib import Path
 
-SEMANTIC_DATA_FILE = 'semantic_data.json'
+SEMANTIC_DATA_FILE = 'public/semantic_data.json'
 PHOTOS_DIR = 'public/images/damage'
-OUTPUT_FILE = 'semantic_data_with_photos.json'
+OUTPUT_FILE = 'public/semantic_data.json'
 
 def load_semantic_data():
     """Load existing semantic data"""

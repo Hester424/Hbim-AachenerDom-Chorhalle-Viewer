@@ -43,6 +43,14 @@ const highlightMaterial = new THREE.MeshLambertMaterial({
     depthTest: true
 });
 
+// Yellow highlight material for timeline event components
+const timelineHighlightMaterial = new THREE.MeshLambertMaterial({
+    color: 0xffaa00,
+    transparent: true,
+    opacity: 0.7,
+    depthTest: true
+});
+
 // Material for IFC components without semantic data (semi-transparent)
 const noSemanticMaterial = new THREE.MeshLambertMaterial({
     color: 0x888888,
@@ -480,19 +488,57 @@ window.addEventListener('dblclick', async (event) => {
         }
         
     } else {
-        // Clicked empty space - remove highlight
+        // Clicked empty space - remove all highlights
         ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
+        ifcLoader.ifcManager.removeSubset(0, timelineHighlightMaterial);
         selectedExpressID = null;
         clearUI();
+        // Clear timeline event active state
+        document.querySelectorAll('.timeline-event.active').forEach(card => {
+            card.classList.remove('active');
+        });
     }
 });
 
 // ESC to deselect
 window.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && selectedExpressID !== null) {
+    if (event.key === 'Escape') {
         ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
+        ifcLoader.ifcManager.removeSubset(0, timelineHighlightMaterial);
         selectedExpressID = null;
         clearUI();
+        // Clear timeline event active state
+        document.querySelectorAll('.timeline-event.active').forEach(card => {
+            card.classList.remove('active');
+        });
+    }
+});
+
+// Single click on empty 3D space to clear all highlights
+window.addEventListener('click', (event) => {
+    // Only handle clicks on the canvas (not on UI panels)
+    const target = event.target;
+    const isCanvas = target.tagName === 'CANVAS';
+
+    if (isCanvas && ifcModel) {
+        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+        mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+        raycaster.setFromCamera(mouse, camera);
+        const intersects = raycaster.intersectObject(ifcModel, true);
+
+        // If clicked on empty space (no intersection with model)
+        if (intersects.length === 0) {
+            // Clear all highlights (blue + yellow)
+            ifcLoader.ifcManager.removeSubset(0, highlightMaterial);
+            ifcLoader.ifcManager.removeSubset(0, timelineHighlightMaterial);
+            selectedExpressID = null;
+            clearUI();
+            // Clear timeline event active state
+            document.querySelectorAll('.timeline-event.active').forEach(card => {
+                card.classList.remove('active');
+            });
+        }
     }
 });
 
@@ -783,7 +829,7 @@ window.highlightComponentByGlobalId = async function(globalId) {
                 continue;
             }
         }
-        
+
         if (!found) {
             console.warn('⚠️ Component not found in 3D model:', globalId);
             alert(`Component not found in 3D model.\nGlobalId: ${globalId}\n\nThe component may exist in semantic data but not in the IFC file.`);
@@ -791,6 +837,137 @@ window.highlightComponentByGlobalId = async function(globalId) {
     } catch (error) {
         console.error('❌ Error highlighting component:', error);
         alert('Error highlighting component. Check console for details.');
+    }
+};
+
+// Highlight multiple components by CorrectedID list (for timeline events)
+window.highlightComponentsByCorrectedIDs = async function(correctedIDList) {
+    if (!ifcLoader || !ifcModel) {
+        console.warn('⚠️ IFC Model not loaded yet');
+        alert('IFC Model is not loaded yet. Please wait.');
+        return;
+    }
+
+    try {
+        // Extract numeric IDs from "CorrectedID_XXX" format
+        const numericIDs = correctedIDList.map(id => {
+            const match = id.match(/CorrectedID_(\d+)/);
+            return match ? match[1] : null;
+        }).filter(id => id !== null);
+
+        if (numericIDs.length === 0) {
+            console.warn('⚠️ No valid CorrectedIDs found');
+            return;
+        }
+
+        console.log('🔍 Searching for components with CorrectedIDs:', numericIDs);
+
+        // Find GlobalIds from semantic data
+        const globalIds = [];
+        for (const [globalId, component] of Object.entries(semanticData)) {
+            if (numericIDs.includes(component.CorrectedID)) {
+                globalIds.push(globalId);
+            }
+        }
+
+        if (globalIds.length === 0) {
+            console.warn('⚠️ No components found in semantic data for these CorrectedIDs');
+            alert('No matching components found in the model.');
+            return;
+        }
+
+        console.log(`📊 Found ${globalIds.length} components to highlight`);
+
+        // Get all ExpressIDs from spatial structure
+        const modelID = 0;
+        let allIDs = [];
+
+        try {
+            const properties = await ifcLoader.ifcManager.getSpatialStructure(modelID);
+
+            function collectIDs(element) {
+                const ids = [];
+                if (element.expressID !== undefined) {
+                    ids.push(element.expressID);
+                }
+                if (element.children) {
+                    element.children.forEach(child => {
+                        ids.push(...collectIDs(child));
+                    });
+                }
+                return ids;
+            }
+
+            allIDs = collectIDs(properties);
+        } catch (error) {
+            console.warn('Could not get spatial structure:', error);
+            const maxID = 10000;
+            for (let i = 1; i < maxID; i++) {
+                allIDs.push(i);
+            }
+        }
+
+        // Find ExpressIDs for all GlobalIds
+        const expressIDsToHighlight = [];
+        const foundGlobalIds = [];
+
+        for (const expressID of allIDs) {
+            try {
+                const props = await ifcLoader.ifcManager.getItemProperties(modelID, expressID);
+
+                if (props && props.GlobalId && globalIds.includes(props.GlobalId.value)) {
+                    expressIDsToHighlight.push(expressID);
+                    foundGlobalIds.push(props.GlobalId.value);
+
+                    // Early exit if we found all
+                    if (foundGlobalIds.length === globalIds.length) {
+                        break;
+                    }
+                }
+            } catch (error) {
+                continue;
+            }
+        }
+
+        if (expressIDsToHighlight.length === 0) {
+            console.warn('⚠️ No components found in 3D model');
+            alert('Components exist in semantic data but not found in 3D model.');
+            return;
+        }
+
+        // Remove old timeline highlight
+        ifcLoader.ifcManager.removeSubset(modelID, timelineHighlightMaterial);
+
+        // Create new highlight for all components
+        ifcLoader.ifcManager.createSubset({
+            modelID: modelID,
+            ids: expressIDsToHighlight,
+            scene: scene,
+            removePrevious: true,
+            material: timelineHighlightMaterial
+        });
+
+        console.log(`✅ Highlighted ${expressIDsToHighlight.length} components (yellow)`);
+
+        // Show info panel with first component
+        if (foundGlobalIds.length > 0) {
+            const firstGlobalId = foundGlobalIds[0];
+            const component = semanticData[firstGlobalId];
+            if (component) {
+                displayComponentInfo(firstGlobalId, expressIDsToHighlight[0], component);
+            }
+        }
+
+    } catch (error) {
+        console.error('❌ Error highlighting timeline components:', error);
+    }
+};
+
+// Clear timeline highlight
+window.clearTimelineHighlight = function() {
+    if (ifcLoader) {
+        ifcLoader.ifcManager.removeSubset(0, timelineHighlightMaterial);
+        console.log('🧹 Timeline highlight cleared');
     }
 };
 
@@ -904,10 +1081,22 @@ async function loadTimeline() {
                 dateDisplay = event.date.start || event.date.end || 'Unknown';
             }
 
-            // Collect all components, descriptions
+            // Collect all components, descriptions, and affected_components
             const allComponents = new Set();
+            const allAffectedComponents = new Set();
             let mainDescription = '';
 
+            // Check event-level affected_components first (for events without damages/repairs structure)
+            if (event.affected_components) {
+                event.affected_components.forEach(comp => allAffectedComponents.add(comp));
+            }
+
+            // Check event-level description
+            if (event.description) {
+                mainDescription = event.description;
+            }
+
+            // Then check damages and repairs arrays
             [...(event.damages || []), ...(event.repairs || [])].forEach(item => {
                 if (item.description && !mainDescription) {
                     mainDescription = item.description;
@@ -915,20 +1104,36 @@ async function loadTimeline() {
                 if (item.components) {
                     item.components.forEach(comp => allComponents.add(comp));
                 }
+                // Also collect affected_components inside damages/repairs
+                if (item.affected_components) {
+                    item.affected_components.forEach(comp => allAffectedComponents.add(comp));
+                }
             });
+
+            // Check if event has linked components (CorrectedID_XXX format from affected_components)
+            const linkedComponents = Array.from(allAffectedComponents).filter(comp => comp.startsWith('CorrectedID_'));
+            const hasLinkedComponents = linkedComponents.length > 0;
 
             // Build event card HTML
             let html = `
-                <div class="event-date">${dateDisplay}</div>
+                <div class="event-date-row">
+                    <div class="event-date">${dateDisplay}</div>
+                    ${hasLinkedComponents ? '<span class="showcomp-badge" title="Click to highlight components">SHOW 3D</span>' : ''}
+                </div>
                 <div class="event-type-badge ${badgeType}">${badgeText}</div>
                 <div class="event-label">${event.label}</div>
             `;
 
-            if (allComponents.size > 0) {
+            if (allComponents.size > 0 || linkedComponents.length > 0) {
                 html += '<div class="event-components">';
+                // Show general component names (like "Dachstuhl")
                 allComponents.forEach(comp => {
                     html += `<span class="component-tag">${comp}</span>`;
                 });
+                // Show count of linked IFC components
+                if (linkedComponents.length > 0) {
+                    html += `<span class="component-tag linked-count">${linkedComponents.length} IFC Components</span>`;
+                }
                 html += '</div>';
             }
 
@@ -937,6 +1142,22 @@ async function loadTimeline() {
             }
 
             eventCard.innerHTML = html;
+
+            // Add click event for highlighting components
+            if (hasLinkedComponents) {
+                eventCard.classList.add('has-linked-components');
+                eventCard.addEventListener('click', () => {
+                    // Remove active state from other cards
+                    document.querySelectorAll('.timeline-event.active').forEach(card => {
+                        card.classList.remove('active');
+                    });
+                    // Add active state to this card
+                    eventCard.classList.add('active');
+                    // Highlight components in 3D viewer
+                    window.highlightComponentsByCorrectedIDs(linkedComponents);
+                });
+            }
+
             track.appendChild(eventCard);
         });
 
