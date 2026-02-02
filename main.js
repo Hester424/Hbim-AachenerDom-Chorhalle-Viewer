@@ -849,23 +849,23 @@ window.highlightComponentsByCorrectedIDs = async function(correctedIDList) {
     }
 
     try {
-        // Extract numeric IDs from "CorrectedID_XXX" format
-        const numericIDs = correctedIDList.map(id => {
-            const match = id.match(/CorrectedID_(\d+)/);
+        // Extract IDs from "CorrectedID_XXX" format (supports alphanumeric like 8B, 18A)
+        const extractedIDs = correctedIDList.map(id => {
+            const match = id.match(/CorrectedID_([A-Za-z0-9]+)/);
             return match ? match[1] : null;
         }).filter(id => id !== null);
 
-        if (numericIDs.length === 0) {
+        if (extractedIDs.length === 0) {
             console.warn('⚠️ No valid CorrectedIDs found');
             return;
         }
 
-        console.log('🔍 Searching for components with CorrectedIDs:', numericIDs);
+        console.log('🔍 Searching for components with CorrectedIDs:', extractedIDs);
 
         // Find GlobalIds from semantic data
         const globalIds = [];
         for (const [globalId, component] of Object.entries(semanticData)) {
-            if (numericIDs.includes(component.CorrectedID)) {
+            if (extractedIDs.includes(component.CorrectedID)) {
                 globalIds.push(globalId);
             }
         }
