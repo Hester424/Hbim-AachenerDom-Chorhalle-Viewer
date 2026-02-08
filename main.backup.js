@@ -6,7 +6,7 @@ import { IFCLoader } from 'web-ifc-three/IFCLoader';
 
 // Scene setup
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x111111);
+scene.background = new THREE.Color(0x1e293b);
 
 const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.set(35, 30, 35);
