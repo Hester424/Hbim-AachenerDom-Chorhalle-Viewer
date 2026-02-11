@@ -2848,9 +2848,11 @@
         "CorrectedID_19A",
         "CorrectedID_8A",
         "CorrectedID_18A",
-        "CorrectedID_3A"
+        "CorrectedID_3A",
+        "CorrectedID_379",
+        "CorrectedID_382"
       ],
-      "component_count": 352,
+      "component_count": 354,
       "damages": [],
       "repairs": []
     },
@@ -3220,9 +3222,11 @@
         "CorrectedID_19A",
         "CorrectedID_8A",
         "CorrectedID_18A",
-        "CorrectedID_3A"
+        "CorrectedID_3A",
+        "CorrectedID_379",
+        "CorrectedID_382"
       ],
-      "component_count": 352,
+      "component_count": 354,
       "damages": [],
       "repairs": []
     },
@@ -3292,11 +3296,9 @@
         "CorrectedID_918",
         "CorrectedID_991",
         "CorrectedID_804",
-        "CorrectedID_518",
         "CorrectedID_1027",
         "CorrectedID_941",
         "CorrectedID_723",
-        "CorrectedID_571",
         "CorrectedID_665",
         "CorrectedID_3C",
         "CorrectedID_914",
@@ -3488,7 +3490,6 @@
         "CorrectedID_637",
         "CorrectedID_911",
         "CorrectedID_734",
-        "CorrectedID_533",
         "CorrectedID_806",
         "CorrectedID_947",
         "CorrectedID_967",
@@ -3563,7 +3564,6 @@
         "CorrectedID_643",
         "CorrectedID_844",
         "CorrectedID_1054",
-        "CorrectedID_983",
         "CorrectedID_857",
         "CorrectedID_860",
         "CorrectedID_813",
@@ -3594,9 +3594,11 @@
         "CorrectedID_684",
         "CorrectedID_876",
         "CorrectedID_1086",
-        "CorrectedID_1085"
+        "CorrectedID_1085",
+        "CorrectedID_537",
+        "CorrectedID_983"
       ],
-      "component_count": 354,
+      "component_count": 352,
       "damages": [],
       "repairs": []
     },
@@ -3664,9 +3666,14 @@
         "CorrectedID_952",
         "CorrectedID_982",
         "CorrectedID_934",
-        "CorrectedID_919"
+        "CorrectedID_919",
+        "CorrectedID_817",
+        "CorrectedID_881",
+        "CorrectedID_1000",
+        "CorrectedID_806",
+        "CorrectedID_805"
       ],
-      "component_count": 50,
+      "component_count": 55,
       "damages": [],
       "repairs": []
     },
@@ -3734,9 +3741,14 @@
         "CorrectedID_952",
         "CorrectedID_982",
         "CorrectedID_934",
-        "CorrectedID_919"
+        "CorrectedID_919",
+        "CorrectedID_817",
+        "CorrectedID_881",
+        "CorrectedID_1000",
+        "CorrectedID_806",
+        "CorrectedID_805"
       ],
-      "component_count": 50,
+      "component_count": 55,
       "damages": [],
       "repairs": []
     },
@@ -4179,9 +4191,11 @@
         "CorrectedID_19A",
         "CorrectedID_8A",
         "CorrectedID_18A",
-        "CorrectedID_3A"
+        "CorrectedID_3A",
+        "CorrectedID_379",
+        "CorrectedID_382"
       ],
-      "component_count": 352,
+      "component_count": 354,
       "damages": [],
       "repairs": []
     },
@@ -4551,9 +4565,11 @@
         "CorrectedID_19A",
         "CorrectedID_8A",
         "CorrectedID_18A",
-        "CorrectedID_3A"
+        "CorrectedID_3A",
+        "CorrectedID_379",
+        "CorrectedID_382"
       ],
-      "component_count": 352,
+      "component_count": 354,
       "damages": [],
       "repairs": []
     },
