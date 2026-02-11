@@ -6690,7 +6690,11 @@
     "related_text_events": [
       "Event_07_Inventory",
       "Event_07_Damage",
-      "Event_01_Repair"
+      "Event_01_Repair",
+      "EventGroup_12D",
+      "Event_12F_Damage",
+      "EventGroup_12E",
+      "EventGroup_12F"
     ],
     "Photos": []
   },
@@ -7048,7 +7052,9 @@
     "related_text_events": [
       "Event_07_Inventory",
       "Event_07_Damage",
-      "Event_01_Repair"
+      "Event_01_Repair",
+      "Event_15A_Damage",
+      "Event_15A_Repair"
     ],
     "Photos": []
   },
@@ -7115,7 +7121,9 @@
       "Event_07_Damage",
       "Event_01_Repair",
       "Event_10_Damage",
-      "Event_12_Repair_Part6"
+      "Event_12_Repair_Part6",
+      "Event_15A_Damage",
+      "Event_15A_Repair"
     ],
     "Photos": []
   },
@@ -8018,7 +8026,9 @@
     "related_text_events": [
       "Event_07_Inventory",
       "Event_07_Damage",
-      "Event_01_Repair"
+      "Event_01_Repair",
+      "Event_15A_Damage",
+      "Event_15A_Repair"
     ],
     "Photos": []
   },
@@ -8266,8 +8276,7 @@
       "EventGroup_12E",
       "EventGroup_12F",
       "Event_12F_Damage",
-      "Event_10_Damage",
-      "Event_12_Repair_Part6"
+      "Event_10_Damage"
     ],
     "Photos": []
   },
@@ -8438,7 +8447,11 @@
     "related_text_events": [
       "Event_07_Inventory",
       "Event_07_Damage",
-      "Event_01_Repair"
+      "Event_01_Repair",
+      "EventGroup_12D",
+      "Event_12F_Damage",
+      "EventGroup_12E",
+      "EventGroup_12F"
     ],
     "Photos": []
   },
@@ -11767,8 +11780,7 @@
       "EventGroup_12E",
       "EventGroup_12F",
       "Event_12F_Damage",
-      "Event_10_Damage",
-      "Event_12_Repair_Part6"
+      "Event_10_Damage"
     ],
     "Photos": []
   },
@@ -16061,8 +16073,7 @@
       "EventGroup_12E",
       "EventGroup_12F",
       "Event_12F_Damage",
-      "Event_10_Damage",
-      "Event_12_Repair_Part6"
+      "Event_10_Damage"
     ],
     "Photos": []
   },
@@ -21724,7 +21735,9 @@
     "related_text_events": [
       "Event_07_Inventory",
       "Event_07_Damage",
-      "Event_01_Repair"
+      "Event_01_Repair",
+      "Event_15A_Damage",
+      "Event_15A_Repair"
     ],
     "Photos": []
   },
@@ -22050,7 +22063,9 @@
       "Event_07_Damage",
       "Event_01_Repair",
       "Event_10_Damage",
-      "Event_12_Repair_Part6"
+      "Event_12_Repair_Part6",
+      "Event_15A_Damage",
+      "Event_15A_Repair"
     ],
     "Photos": []
   },
